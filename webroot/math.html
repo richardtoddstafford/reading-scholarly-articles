@@ -87,6 +87,8 @@
       <!-- Left Panel (ie. popups)
       ============================================== -->
       <div class="col-md-4">
+
+<div class="tab-pane fade in active" id="information">
         <div class="panel panel-info">
           <div class="panel-heading text-center">
             Information
@@ -96,6 +98,40 @@
             information about the document.
           </div>
         </div>
+</div>
+
+<div class="tab-pane fade" id="introduction">
+  <div class="panel panel-info">
+          <div class="panel-heading text-center">
+           Introduction
+          </div>
+          <div class="panel-body">
+            The introduction is....
+          </div>
+        </div>
+</div>
+
+<div class="tab-pane fade" id="literaturereview">
+  <div class="panel panel-info">
+          <div class="panel-heading text-center">
+           Literature Review
+          </div>
+          <div class="panel-body">
+            The literature review is....
+          </div>
+        </div>
+</div>
+
+<div class="tab-pane fade" id="conclusion">
+  <div class="panel panel-info">
+          <div class="panel-heading text-center">
+           Conclusion
+          </div>
+          <div class="panel-body">
+            The conclusion is....
+          </div>
+        </div>
+</div>
       </div>
 
       <!-- Right Panel (ie. text)
@@ -107,13 +143,19 @@
           </div>
           <div class="panel-body">
 
+	 <a href="#information" data-toggle="tab">
+              Click me for information.
+            </a>
+
+	   <br />
+
             <a href="#introduction" data-toggle="tab">
               Click me for introduction.
             </a>
 
             <br />
 
-            <a href="#lit-review" data-toggle="tab">
+            <a href="#literaturereview" data-toggle="tab">
               Click me for lit review.
             </a>
 
