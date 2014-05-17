@@ -48,14 +48,14 @@ $path = substr($request_uri['path'], 1);
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="">About</a></li>
+          <li><a href="/">About</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle"
             data-toggle="dropdown">Select Field <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="/math">Mathematics</a></li>
-              <li><a href="/natsci">Natural Sciences</a></li>
               <li><a href="/cs">Computer Science</a></li>
+              <li><a href="/natsci">Natural Sciences</a></li>
               <li><a href="/lit">Literature</a></li>
               <li><a href="/gov">Government</a></li>
             </ul>
@@ -85,11 +85,11 @@ $path = substr($request_uri['path'], 1);
               case 'math':
                 echo "Mathematics";
                 break;
-              case 'natsci':
-                echo "Natural Sciences";
+              case '':
+                echo "Anatomy of a Scholarly Article";
                 break;
               default:
-                echo "Anatomy of a Scholarly Article";
+                echo "Page not found";
             }
             ?>
           </h1>
@@ -102,11 +102,10 @@ $path = substr($request_uri['path'], 1);
       case 'math':
         include("content/math.content");
         break;
-      case 'natsci':
-        include("content/natsci.content");
-        break;
-      default:
+      case '':
         include("content/index.content");
+      default:
+        break;
     }
     ?>
 
