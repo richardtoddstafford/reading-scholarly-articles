@@ -19,35 +19,35 @@
         <div class="tab-content">
 
           <div class="tab-pane fade in active" id="default">
-            <h3>Default</h3>
+            <h3>About</h3>
             <p>
-              Default stuff
+              This is a really cool tool ...
             </p>
           </div>
 
           <div class="tab-pane fade" id="about-math">
-            <h3>Mathematics</h3>
+            <h3><a href="/math">Mathematics</a></h3>
             <p>
               Mathematics is the study of ...
             </p>
           </div>
 
           <div class="tab-pane fade" id="about-cs">
-            <h3>Computer Sciences</h3>
+            <h3><a href="/cs">Computer Science</a></h3>
             <p>
               Computer Sciences are the study of ...
             </p>
           </div>
 
           <div class="tab-pane fade" id="about-lit">
-            <h3>Literature</h3>
+            <h3><a href="/lit">Literature</a></h3>
             <p>
               Literature is the study of ...
             </p>
           </div>
 
           <div class="tab-pane fade" id="about-govt">
-            <h3>Government</h3>
+            <h3><a href="/gov">Government</a></h3>
             <p>
               Government is the study of ...
             </p>
