@@ -100,13 +100,13 @@ $path = substr($request_uri['path'], 1);
     <?php
     switch( $path ) {
       case 'math':
-        include("math.content");
+        include("content/math.content");
         break;
       case 'natsci':
-        include("natsci.content");
+        include("content/natsci.content");
         break;
       default:
-        include("index.content");
+        include("content/index.content");
     }
     ?>
 
