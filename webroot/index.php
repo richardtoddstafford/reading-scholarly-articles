@@ -1,3 +1,8 @@
+<?php
+$request_uri = @parse_url($_SERVER['REQUEST_URI']);
+$path = substr($request_uri['path'], 1);
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,15 +48,16 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="">About</a></li>
+          <li><a href="/">About</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle"
             data-toggle="dropdown">Select Field <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="/math.html">Mathematics</a></li>
-              <li><a href="/cs.html">Computer Science</a></li>
-              <li><a href="/lit.html">Literature</a></li>
-              <li><a href="/gov.html">Government</a></li>
+              <li><a href="/math">Mathematics</a></li>
+              <li><a href="/cs">Computer Science</a></li>
+              <li><a href="/natsci">Natural Sciences</a></li>
+              <li><a href="/lit">Literature</a></li>
+              <li><a href="/gov">Government</a></li>
             </ul>
           </li>
         </ul>
@@ -74,73 +80,35 @@
       <div class="col-lg-12">
         <div class="page-header">
           <h1>
-            Anatomy of a Scholarly Article
+            <?php
+            switch( $path ) {
+              case 'math':
+                echo "Mathematics";
+                break;
+              case '':
+                echo "Anatomy of a Scholarly Article";
+                break;
+              default:
+                echo "Page not found";
+            }
+            ?>
           </h1>
         </div>
       </div>
     </div>
 
+    <?php
+    switch( $path ) {
+      case 'math':
+        include("content/math.content");
+        break;
+      case '':
+        include("content/index.content");
+      default:
+        break;
+    }
+    ?>
 
-    <div class="row">
-
-      <!-- Homepage Side Panel
-      ============================================== -->
-      <div class="col-sm-3 col-xs-12">
-        <h3>Available Fields</h3>
-        <ul class="nav nav-pills nav-stacked" style="max-width: 300px;">
-          <li><a href="#about-math" data-toggle="tab">Mathematics</a></li>
-          <li><a href="#about-cs" data-toggle="tab">Computer Science</a></li>
-          <li><a href="#about-lit" data-toggle="tab">Literature</a></li>
-          <li><a href="#about-govt" data-toggle="tab">Government</a></li>
-        </ul>
-      </div>
-
-      <!-- Homepage Tab Contents
-      ============================================== -->
-      <div class="col-sm-9 col-xs-12">
-
-        <div class="tab-content">
-
-          <div class="tab-pane fade in active" id="default">
-            <h3>Default</h3>
-            <p>
-              Default stuff
-            </p>
-          </div>
-
-          <div class="tab-pane fade" id="about-math">
-            <h3>Mathematics</h3>
-            <p>
-              Mathematics is the study of ...
-            </p>
-          </div>
-
-          <div class="tab-pane fade" id="about-cs">
-            <h3>Computer Sciences</h3>
-            <p>
-              Computer Sciences are the study of ...
-            </p>
-          </div>
-
-          <div class="tab-pane fade" id="about-lit">
-            <h3>Literature</h3>
-            <p>
-              Literature is the study of ...
-            </p>
-          </div>
-
-          <div class="tab-pane fade" id="about-govt">
-            <h3>Government</h3>
-            <p>
-              Government is the study of ...
-            </p>
-          <div>
-
-        </div>
-
-      </div>
-
-    </div>
 
   </div>
 
