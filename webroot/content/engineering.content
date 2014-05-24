@@ -279,7 +279,7 @@ specified. Afterwards it sends counters and timestamps back
 to the server in order to perform final calculations.
                 </p>
 
-                <img src="content/assets/socialscience/fig1.png"
+                <img src="content/assets/engineering/fig1.png"
                 class="figure"/>
 
                 <p class="caption">
@@ -463,7 +463,7 @@ major part of our framework because the speed at which information
 traverses the network impacts the speed of application performance.
                 </p>
 
-                <img src="content/assets/socialscience/fig2.png"
+                <img src="content/assets/engineering/fig2.png"
                 class="figure"/>
 
                 <p class="caption">
@@ -486,7 +486,7 @@ downlink latency for VoIP. The latency ranged from 46-61 ms and is below
 100 ms, so it does not cause a detectable delay.
                 </p>
 
-                <img src="content/assets/socialscience/fig3.png"
+                <img src="content/assets/engineering/fig3.png"
                 class="figure"/>
 
                 <p class="caption">
@@ -543,7 +543,7 @@ limited to 50 Kbps and 48 Kbps in a 3G location. This speed would only
 allow for light to medium workload processing.
                 </p>
 
-                <img src="content/assets/socialscience/fig4.png"
+                <img src="content/assets/engineering/fig4.png"
                 class="figure"/>
 
                 <p class="caption">
