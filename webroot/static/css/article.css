@@ -1,6 +1,43 @@
 .article {
-  font-family: "Latin Modern Sans";
+  font-family: "Latin Modern Serif";
   font-weight: normal;
   font-style: normal;
   text-align: justify;
+
+  /*
+  overflow-y: scroll;
+  height: 500px;
+  */
+}
+
+.article .section-space {
+  height: 20px;
+}
+
+.article .sans {
+  font-family: "Latin Modern Sans";
+}
+
+.article .serif {
+  font-family: "Latin Modern Serif";
+}
+
+.article .uppercase {
+  text-transform: uppercase;
+}
+
+.article .caption {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.article p {
+  text-indent: 15px;
+}
+
+.article img {
+  height: 175px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
