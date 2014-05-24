@@ -84,18 +84,18 @@ $path = substr($request_uri['path'], 1);
           <h1>
             <?php
             switch( $path ) {
-#              case 'engineering':
-#                echo "Engineering";
-#                break;
+              case 'engineering':
+                echo "Engineering";
+                break;
 #              case 'science':
 #                echo "Life Science";
 #                break;
 #              case 'health':
 #                echo "Public Health";
 #                break;
-              case 'socialscience':
-                echo "Social Science";
-                break;
+#              case 'socialscience':
+#                echo "Social Science";
+#                break;
 #              case 'humanities':
 #                echo "Humanities";
 #                break;
@@ -113,18 +113,18 @@ $path = substr($request_uri['path'], 1);
 
     <?php
     switch( $path ) {
-#      case 'engineering':
-#        include("content/engineering.content");
-#        break;
+      case 'engineering':
+        include("content/engineering.content");
+        break;
 #      case 'science':
 #        include("content/science.content");
 #        break;
 #      case 'health':
 #        include("content/health.content");
 #        break;
-      case 'socialscience':
-        include("content/socialscience.content");
-        break;
+#      case 'socialscience':
+#        include("content/socialscience.content");
+#        break;
 #      case 'humanities':
 #        include("content/humanities.content");
 #        break;
