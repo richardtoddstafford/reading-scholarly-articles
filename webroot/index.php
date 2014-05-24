@@ -53,11 +53,11 @@ $path = substr($request_uri['path'], 1);
             <a href="#" class="dropdown-toggle"
             data-toggle="dropdown">Select Field <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="/math">Mathematics</a></li>
-              <li><a href="/cs">Computer Science</a></li>
-              <li><a href="/natsci">Natural Sciences</a></li>
-              <li><a href="/lit">Literature</a></li>
-              <li><a href="/gov">Government</a></li>
+              <li><a href="/engineering">Engineering</a></li>
+              <li><a href="/science">Life Science</a></li>
+              <li><a href="/health">Public Health</a></li>
+              <li><a href="/socialscience">Social Science</a></li>
+              <li><a href="/humanities">Humanities</a></li>
             </ul>
           </li>
         </ul>
@@ -82,9 +82,21 @@ $path = substr($request_uri['path'], 1);
           <h1>
             <?php
             switch( $path ) {
-              case 'math':
-                echo "Mathematics";
+#              case 'engineering':
+#                echo "Engineering";
+#                break;
+#              case 'science':
+#                echo "Life Science";
+#                break;
+#              case 'health':
+#                echo "Public Health";
+#                break;
+              case 'socialscience':
+                echo "Social Science";
                 break;
+#              case 'humanities':
+#                echo "Humanities";
+#                break;
               case '':
                 echo "Anatomy of a Scholarly Article";
                 break;
@@ -99,9 +111,21 @@ $path = substr($request_uri['path'], 1);
 
     <?php
     switch( $path ) {
-      case 'math':
-        include("content/math.content");
+#      case 'engineering':
+#        include("content/engineering.content");
+#        break;
+#      case 'science':
+#        include("content/science.content");
+#        break;
+#      case 'health':
+#        include("content/health.content");
+#        break;
+      case 'socialscience':
+        include("content/socialscience.content");
         break;
+#      case 'humanities':
+#        include("content/humanities.content");
+#        break;
       case '':
         include("content/index.content");
       default:
