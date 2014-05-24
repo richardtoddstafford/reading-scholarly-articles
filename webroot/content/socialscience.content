@@ -3,36 +3,316 @@
     <div class="row">
 
       <div class="col-md-12">
-        <div class="panel panel-primary">
+        <div class="panel panel-primary article">
           <div class="panel-heading text-center">
           </div>
 
           <div class="panel-body">
 
+            <!-- Title of Article {{{
+            ========================================= -->
             <div class="row">
-              <div class="col-lg-12">
-                <h3 class="text-center">Title title title title</h3>
-                <h5 class="text-center">Author1, Author2</h3>
+              <div class="col-sm-12">
+                <h2 class="text-center">Geographic Variation of Mobile
+                Application Usability</h2>
+              </div>
+            </div>
+            <!-- }}} -->
+
+
+            <!-- Article Authors {{{
+            ========================================= -->
+            <div class="row">
+              <hr class="visible-xs" />
+              <div class="col-sm-4 text-center">
+                <strong>Maggie Lagos</strong><br/>
+                Department of Computer Science<br/>
+                George Mason University<br/>
+                Fairfax, Virginia<br/>
+                Email: mlagos@masonlive.gmu.edu
+              </div>
+              <hr class="visible-xs" />
+              <div class="col-sm-4 text-center">
+                <strong>Alicia Shaw</strong><br/>
+                Department of Computer Science<br/>
+                Grambling State University<br/>
+                Grambling, Louisiana<br/>
+                Email: alir.shaw91@gmail.com
+              </div>
+              <hr class="visible-xs" />
+              <div class="col-sm-4 text-center">
+                <strong>Mike Wittie</strong><br/>
+                Department of Computer Science<br/>
+                Montana State University<br/>
+                Bozeman, Montana<br/>
+                Email: mwittie@gmail.com
+              </div>
+              <hr class="visible-xs" />
+            </div>
+            <!-- }}} -->
+
+
+            <!-- Abstract {{{
+            ========================================= -->
+            <div class="row section-space">
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <p>
+<strong><em>Abstract</em></strong> — Rural areas lack connectivity to
+reliable, cellular data services. Inadequate connectivity delays traffic of
+mobile cloud-based applications and may impair their usability. However, it
+is unclear to what degree geographic differences of net- work conditions
+exist and whether these differences meaningfully degrade cloud-based
+application performance in rural areas.  We propose to measure user
+requests’ network traffic delays using a client-server application. Network
+metrics of latency, throughput, and jitter will be colleated to
+characterize user request delays in different geographic areas on different
+devices and demonstrate geographic variation of network performance. We
+will correlate collected measurements with previous research, which has
+linked request delays to loss of usability [1][2][3]. Our results will show
+to what degree of cloud application network performance disparity
+translates into reduced usability that inhibits rural users’ participation
+in modern society.
+                </p>
+              </div>
+            </div>
+            <!-- }}} -->
+
+
+            <!-- {{{ I. Introduction
+            ========================================= -->
+            <div class="row section-space">
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 text-center serif uppercase">
+                I. Introduction
               </div>
             </div>
 
-            <a id="example" class="btn btn-default">Hello.</a>
+            <div class="row">
+              <div class="col-sm-12">
 
-            <a href="#introduction">
-              Click me for introduction.
-            </a>
+                <p>
+With the expansion of the latest 3G and 4G technologies, the availability
+and demand for cellular data services has increased. However, despite
+cellular providers' claims of nationwide coverage, many rural users still
+lack comparable network quality to urban communities. In turn, inadequate
+cellular internet impairs usability of cloud-based applications and limits
+rural users’ access to mobile services. Without comparable cellular
+Internet quality to urban users, rural users may see a digital divide that
+will inhibit them from mobile access to social media, web browsing, gaming,
+and video chat.
+                </p>
 
-            <br />
+                <p>
+Unreliable connectivity has led to delayed traffic, which in turn impairs
+the usability of cloud-based applications. The degrading effect of network
+delays and losses on data services has already been studied [1][2][3]. Yet
+the degree of disparity between urban and rural connectivity is not yet
+understood and requires measuring network QoS in those two geographic
+areas. Speed and reliability of a connection can be inferred through
+network centric metrics such as delay, path latency, packet loss, and
+bandwidth.
+                </p>
 
-            <a href="#literaturereview">
-              Click me for lit review.
-            </a>
+                <p>
+In order to demonstrate whether geographic differences affect application
+performance, a client-server application has been implemented. This
+client-server application serves as a tool for measuring user requests’
+network traffic delays. Deploying this network metrics application on
+various devices and in distinct areas will characterize geographic
+variation of network performance.
+                </p>
 
-            <br />
+                <p>
+Moreover, our collected measurements expand previous research, such as
+MIST’s platform [4]. Our results will show to what degree network
+performance affects usability. Results that show network performance can
+then relate to application usability through others’ results. It will show
+why application usability is reduced, which inhibits equal participation
+for rural users in modern society.
+                </p>
 
-            <a href="#conclusion">
-              Click me for conclusion.
-            </a>
+                <p>
+The remainder of this paper is organized as follows. In Section 2 we review
+background and related work of network metrics. Section 3 exhibits the
+client-server application architecture. Section 4 will provide an analysis
+of data collected. Section 5 describes future work. Lastly, we conclude in
+Section 6 with a summary of our findings.
+                </p>
+
+              </div>
+            </div>
+            <!-- }}} -->
+
+
+            <!-- {{{ II. Background and Related Work
+            ========================================= -->
+            <div class="row section-space">
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 text-center serif uppercase">
+                II. Background and Related Work
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+
+                <p>
+Geographic network variation can reduce application usability enough that
+it leaves behind the rural user population.  Restricted usability of mobile
+applications may be caused by network delays. The research of Luo <em>et.
+al</em>’s shows that QoS for FTP service can be investigated by measuring
+delay, throughput and usability. User-perceived quality measurement for a
+more resource demanding service, such as VoIP, also involves
+network-centric metrics [10]. Tsetsgee and Lkhagvasuren assess the effect
+of delays on subjective and objective VoIP quality scores [2]. Kim <em>et
+al.</em> also investigates application-level performance of voice as well
+as of data services in mobile networks by considering end-to-end delays and
+traffic [3]. Knowing that decreased network quality can degrade application
+performance, our measurement tool focuses only on measuring end-to-end
+network delays in order to geographically model network quality.
+                </p>
+
+                <p>
+The metrics collected can show the affected behavior of different
+lower-level protocols on application performance rather than the protocols
+themselves. Our framework aims to measure this network variation through
+user-perceived metrics including latency, loss, throughput, and jitter.
+Other studies similarly focus on the user experience. Mobile Internet
+Services Test (MIST) measures delivered performance of network quality
+regardless of various underlying technologies among different providers
+[4]. Kostanic <em>et al.</em> also focuses on cross-provider,
+technology-independent QoS assessment with their proposed methodology for
+comparing cellular networks [8]. Inmeasuring the feasibility of
+bandwidth estimation in wireless networks, Koutsonikolas and Hu use the
+achievable throughput as most important bandwidth metric because it
+represents a single client’s perspective [7].
+                </p>
+
+                <p>
+While many experiments are performed under laboratory settings, previously
+listed works are carried out in operational networks. Liu’s research
+especially addresses how certain wireless technologies compare in
+performance in both controlled and deployed environments [6]. Another study
+which evaluates smartphone TCP traffic shows high delays and losses for
+end-users. These studies show that while some technologies operate well in
+laboratory settings, the rapidly changing context in the wild provides a
+more accurate picture of a protocol’s behavior in its actual environment.
+Testing operational, mobile networks also involves measuring at different
+times and locations from a base station in order to give a more
+comprehensive picture of network quality. Likewise, our measurements were
+completed in varying conditions.
+                </p>
+
+                <p>
+The MIST platform serves as a model for what will be presented in this
+paper. It measures network metrics, such as latency and throughput. MIST
+provides information about cellular data networks to aid mobile application
+development.  This paper will further MIST’s research by measuring network
+metrics in geographic areas. Although our system is modeled after MIST, it
+also uses a cloud-server that divides processing load over multiple servers
+and minimizes delays caused by the client’s route to a server [4]. Our
+system also aims to define the extent of geographic differences in network
+conditions and whether these differences degrade application performance in
+rural areas.
+                </p>
+
+                <p>
+Luo <em>et. al</em> constructs a set of paramaters to define QoS for an FTP
+process which includes delay and throughput.  Measurements using their
+network centric QoS definition agrees with user survey results,
+demonstrating that usability for an internet service depends on network
+quality. For example, user-perceived file transferred time is equal to
+the difference between connection initiation and termination, similar to
+the time it takes to send and receive a packet. Of the three servers
+tested, the target server with the smallest delays also received the
+highest usability results through a user survey [10].
+                </p>
+
+                <p>
+Measurements of network performance and user behavior were collected at an
+ACM conference by Balachandran <em>et al.</em> Metrics for user behavior
+include number of handoffs, types of traffic classes used, user session
+load and duration as well as packet error, retransmissions, and bandwidth
+for network metrics. Their results were used to generally characterize user
+behavior and analyze how workload should be distributed across access
+points [1]. Rather than a WiFi network and any type of network-capable
+device, our study focuses on cellular networks and mobile devices.
+                </p>
+
+
+              </div>
+            </div>
+            <!-- }}} -->
+
+
+            <!-- {{{ III. System Architecture
+            ========================================= -->
+            <div class="row section-space">
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 text-center serif uppercase">
+                III. System Architecture
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+
+                <p>
+Our network metrics tool measures latency, throughput, and
+packet loss using a client-server application. The client application can be installed on any Android device running at least
+API version 15. Meanwhile, the server-side software is hosted
+in the cloud and can be executed from a laptop computer.
+Figure 1 illustrates the high-level methodology of the client-
+server application. The size and number of packets to send
+may be adjusted from the server and then sent to the client.
+The client sends and receives first UDP, then TCP packets as
+specified. Afterwards it sends counters and timestamps back
+to the server in order to perform final calculations.
+                </p>
+
+                <img src="content/assets/socialscience/fig1.png"/>
+
+                <p class="caption">
+                  Fig. 1. Client-Server architecture
+                </p>
+
+              </div>
+            </div>
+            <!-- }}} -->
+
+
+            <!-- {{{ Section
+            ========================================= -->
+            <div class="row section-space">
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 text-center serif uppercase">
+                I. Section Title
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+
+                <p>
+Section text.
+                </p>
+
+              </div>
+            </div>
+            <!-- }}} -->
+
+
 
           </div>
         </div>
