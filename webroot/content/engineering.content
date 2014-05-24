@@ -724,43 +724,8 @@ communities.
             <!-- }}} -->
 
 
-            <!-- {{{ Section
-            ========================================= -->
-            <div class="row section-space">
-            </div>
-
-            <div class="row">
-              <div class="col-sm-12 text-center serif uppercase">
-                I. Section Title
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-12">
-
-                <p>
-Section text.
-                </p>
-
-              </div>
-            </div>
-            <!-- }}} -->
-
-
           </div>
         </div>
       </div>
 
     </div>
-
-
-    <script>
-      $("#example").popover({
-        toggle:    "popover",
-        trigger:   "click",
-        placement: "top",
-
-        title:   "Title",
-        content: "Body",
-      });
-    </script>
