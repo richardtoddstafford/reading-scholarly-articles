@@ -16,7 +16,7 @@
               </div>
             </div>
 
-            <a id="example" class="btn btn-default" data-trigger="click" data-toggle="popover" data-content="magical mystery tour" data-placement="top">Hello.</a>
+            <a id="example" class="btn btn-default">Hello.</a>
 
             <a href="#introduction">
               Click me for introduction.
@@ -39,3 +39,15 @@
       </div>
 
     </div>
+
+
+    <script>
+      $("#example").popover({
+        toggle:    "popover",
+        trigger:   "click",
+        placement: "top",
+
+        title:   "Title",
+        content: "Body",
+      });
+    </script>
