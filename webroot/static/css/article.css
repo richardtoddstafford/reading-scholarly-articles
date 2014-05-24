@@ -18,12 +18,19 @@
   font-family: "Latin Modern Sans";
 }
 
-.article .serif {
+.article .serif,
+.article .section-title,
+.article .subsection-title {
   font-family: "Latin Modern Serif";
 }
 
-.article .uppercase {
+.article .uppercase, .article .section-title {
   text-transform: uppercase;
+}
+
+.article .subsection-title {
+  text-align: left;
+  font-style: italic;
 }
 
 .article .caption {
@@ -35,8 +42,18 @@
   text-indent: 15px;
 }
 
-.article img {
+.article p.noindent {
+  text-indent: 0px;
+}
+
+.article .figure {
   height: 175px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article .latex {
   display: block;
   margin-left: auto;
   margin-right: auto;
