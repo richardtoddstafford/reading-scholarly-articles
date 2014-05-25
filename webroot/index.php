@@ -29,6 +29,7 @@ $path = substr($request_uri['path'], 1);
   <script src="static/js/jquery.min.js"></script>
   <script src="static/js/bootstrap.min.js"></script>
   <script src="static/js/latexit.js"></script>
+  <script src="static/js/annotations.js"></script>
 
 </head>
 <body>
