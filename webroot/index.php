@@ -140,7 +140,7 @@ $path = substr($request_uri['path'], 1);
         <div class="col-sm-12 text-center">
           Built by <a href="http://michel.rouly.net">Michel Rouly</a> for
           <a href="//gmu.edu">George Mason University</a> with
-          <a href="http://www.apache.org/licenses/LICENSE-2.0">some rights
+          <a href="http://www.gnu.org/licenses/gpl-3.0.txt">some rights
           reserved</a>.
         </div>
       </div>
