@@ -18,9 +18,7 @@
   font-family: "Latin Modern Sans";
 }
 
-.article .serif,
-.article .section-title,
-.article .subsection-title {
+.article .serif {
   font-family: "Latin Modern Serif";
 }
 
@@ -28,12 +26,11 @@
   font-family: "Latin Modern Mono";
 }
 
-.article .uppercase, .article .section-title {
+.article .uppercase {
   text-transform: uppercase;
 }
 
-.article .subsection-title {
-  text-align: left;
+.article .italic {
   font-style: italic;
 }
 
