@@ -13,8 +13,8 @@
             ========================================= -->
             <div class="row">
               <div class="col-sm-12">
-                <h2 class="text-center">Geographic Variation of Mobile
-                Application Usability</h2>
+                <h2 class="text-center">Mismatch Between Birth Date and
+                Vegetation Phenology Slows the Demography of Roe Deer</h2>
               </div>
             </div>
             <!-- }}} -->
@@ -24,28 +24,30 @@
             ========================================= -->
             <div class="row">
               <hr class="visible-xs" />
-              <div class="col-sm-4 text-center">
-                <strong>Author 1</strong><br/>
-                X<br/>
-                X<br/>
-                X<br/>
-                X
+              <div class="col-sm-12 sans">
+                <strong>Floriane Plard<sup>1</sup></strong>,
+                <strong>Jean-Michel Gaillard<sup>1</sup></strong>,
+                <strong>Tim Coulson<sup>2</sup></strong>,
+                <strong>A. J. Mark Hewison<sup>3</sup></strong>,
+                <strong>Daniel Delorme<sup>4</sup></strong>,
+                <strong>Claude Warnant<sup>4</sup></strong>,
+                <strong>Christophe Bonenfant<sup>1</sup></strong>
               </div>
               <hr class="visible-xs" />
-              <div class="col-sm-4 text-center">
-                <strong>Author 2</strong><br/>
-                X<br/>
-                X<br/>
-                X<br/>
-                X
-              </div>
-              <hr class="visible-xs" />
-              <div class="col-sm-4 text-center">
-                <strong>Author 3</strong><br/>
-                X<br/>
-                X<br/>
-                X<br/>
-                X
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 sans">
+                <sub>
+<strong>1</strong> Laboratoire "Biom&eacute;trie et Biologie &Eacute;volutive,"
+Unit&eacute; Mixte de Recherche 5558, Universit&eacute; Claude Bernard Lyon 1,
+Lyon, France, <strong>2</strong> Department of Zoology, The Tinbergen Building,
+University of Oxford, Oxford, United Kingdom, <strong>3</strong> INRA, UR035
+CEFS, B.P. 52627, Castanet-Tolosan cedex, France, <strong>4</strong> Centre
+National d’&Eacute;tudes et de Recherches Appliqu&eacute;es
+Cervid&eacute;s-Sangliers, Office National de la Chasse et de la Faune Sauvage,
+Paris, France
+                </sub>
               </div>
               <hr class="visible-xs" />
             </div>
@@ -59,8 +61,28 @@
 
             <div class="row">
               <div class="col-sm-12">
-                <p>
-<strong><em>Abstract</em></strong> — Content.
+                <p class="noindent"><strong>Abstract</strong><br/>
+Marked impacts of climate change on biodiversity have frequently been
+demonstrated, including temperature-related shifts in phenology and
+life-history traits. One potential major impact of climate change is the
+modification of synchronization between the phenology of different trophic
+levels. High phenotypic plasticity in laying date has allowed many bird species
+to track the increasingly early springs resulting from recent environmental
+change, but although changes in the timing of reproduction have been well
+studied in birds, these questions have only recently been addressed in mammals.
+To track peak resource availability, large herbivores like roe deer, with a
+widespread distribution across Europe, should also modify their life-history
+schedule in response to changes in vegetation phenology over time. In this
+study, we analysed the influence of climate change on the timing of roe deer
+births and the consequences for population demography and individual fitness.
+Our study provides a rare quantification of the demographic costs associated
+with the failure of a species to modify its phenology in response to a changing
+world. Given these fitness costs, the lack of response of roe deer birth dates
+to match the increasingly earlier onset of spring is in stark contrast with the
+marked phenotypic responses to climate change reported in many other mammals.
+We suggest that the lack of phenotypic plasticity in birth timing in roe deer
+is linked to its inability to track environmental cues of variation in resource
+availability for the timing of parturition.
                 </p>
               </div>
             </div>
