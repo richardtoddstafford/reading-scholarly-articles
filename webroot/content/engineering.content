@@ -89,7 +89,7 @@ in modern society.
 
             <div class="row">
               <hr class="visible-xs" />
-              <div class="col-sm-12 text-center section-title">
+              <div class="col-sm-12 text-center serif uppercase">
                 I. Introduction
               </div>
             </div>
@@ -158,7 +158,7 @@ Section 6 with a summary of our findings.
 
             <div class="row">
               <hr class="visible-xs" />
-              <div class="col-sm-12 text-center section-title">
+              <div class="col-sm-12 text-center serif uppercase">
                 II. Background and Related Work
               </div>
             </div>
@@ -262,7 +262,7 @@ device, our study focuses on cellular networks and mobile devices.
 
             <div class="row">
               <hr class="visible-xs" />
-              <div class="col-sm-12 text-center section-title">
+              <div class="col-sm-12 text-center serif uppercase">
                 III. System Architecture
               </div>
             </div>
@@ -294,7 +294,7 @@ to the server in order to perform final calculations.
             </div>
 
             <div class="row">
-              <div class="col-sm-12 subsection-title">
+              <div class="col-sm-12 pull-left italic">
                 A. Packet Loss
               </div>
             </div>
@@ -313,7 +313,7 @@ packets received to measure packet loss.
             </div>
 
             <div class="row">
-              <div class="col-sm-12 subsection-title">
+              <div class="col-sm-12 pull-left italic">
                 B. Throughput
               </div>
             </div>
@@ -337,7 +337,7 @@ uplink and downlink speeds.
             </div>
 
             <div class="row">
-              <div class="col-sm-12 subsection-title">
+              <div class="col-sm-12 pull-left italic">
                 C. Path Latency
               </div>
             </div>
@@ -362,7 +362,7 @@ the difference between the highest and lowest latency values.
             </div>
 
             <div class="row">
-              <div class="col-sm-12 subsection-title">
+              <div class="col-sm-12 pull-left italic">
                 D. Synchronization
               </div>
             </div>
@@ -417,7 +417,7 @@ differences in network performance of mobile application usability.
             </div>
 
             <div class="row">
-              <div class="col-sm-12 subsection-title">
+              <div class="col-sm-12 pull-left italic">
                 A. Data Collection
               </div>
             </div>
@@ -455,7 +455,7 @@ loss.
             </div>
 
             <div class="row">
-              <div class="col-sm-12 subsection-title">
+              <div class="col-sm-12 pull-left italic">
                 B. Latency Analysis
               </div>
             </div>
@@ -522,7 +522,7 @@ requirements, meaning the network can support all types of applications
             </div>
 
             <div class="row">
-              <div class="col-sm-12 subsection-title">
+              <div class="col-sm-12 pull-left italic">
                 C. Throughput Analysis
               </div>
             </div>
@@ -561,7 +561,7 @@ allow for light to medium workload processing.
             </div>
 
             <div class="row">
-              <div class="col-sm-12 subsection-title">
+              <div class="col-sm-12 pull-left italic">
                 D. Packet Loss Analysis
               </div>
             </div>
