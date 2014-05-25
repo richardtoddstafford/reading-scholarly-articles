@@ -1,4 +1,4 @@
-.trigger {
+[rel~="popover"] {
   display: block;
   cursor: pointer;
   color: #158cba;
@@ -6,7 +6,7 @@
   font-style: italic;
 }
 
-.trigger:hover {
+[rel~="popover"]:hover {
   color: #158cba;
   text-decoration: none;
 }
