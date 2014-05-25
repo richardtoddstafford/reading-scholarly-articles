@@ -297,6 +297,18 @@ results suggest that we should not expect a strong micro-evolutionary response
 of parturition date in roe deer.
                 </p>
 
+                <img src="content/assets/science/fig1.png"
+                height="450" class="figure"/>
+
+                <p class="caption bold">
+Figure 1. Temporal variation in spring temperature (A),
+flowering date in the vineyards of the Champagne region (B),
+the observed population mean of the mismatch between
+flowering date and median parturition date (C), and mean
+individual fitness predicted from the IPM (D) in the roe deer
+population of Trois Fontaines, France from 1985 to 2011.
+                </p>
+
               </div>
             </div>
 
@@ -369,6 +381,15 @@ deer over the entire study period. In accordance with these results, we also
 observed a decrease in mean annual female reproductive success over the study
 period (b = 20.027, SE = 0.005, p,0.001; note that these data are independent
 of those used to build the IPM, see Figure S3).
+                </p>
+
+                <img src="content/assets/science/fig2.png"
+                height="250" class="figure"/>
+
+                <p class="caption bold">
+Figure 2. Variation in mean cohort-specific early survival in relation to
+the mismatch between annual median birth date and vegetation phenology in
+the roe deer population of Trois Fontaines, France.
                 </p>
 
               </div>
@@ -487,6 +508,16 @@ further in the future, causing the phenology of vegetation to advance still
 further. We suggest that these combined effects could impose a brake on the
 demographic and geographical expansion of roe deer, a common and previously
 successful species across all Europe [59].
+                </p>
+
+                <img src="content/assets/science/fig3.png"
+                height="250" class="figure"/>
+
+                <p class="caption bold">
+Figure 3. Influence of the mismatch (measured as the difference
+in days between individual birth date and flowering date in
+Champagne) on individual early survival in the roe deer
+population of Trois Fontaines, France.
                 </p>
 
               </div>
