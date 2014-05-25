@@ -283,7 +283,7 @@ to the server in order to perform final calculations.
                 </p>
 
                 <img src="content/assets/engineering/fig1.png"
-                class="figure"/>
+                height="200" class="figure"/>
 
                 <p class="caption">
                   Fig. 1. Client-Server architecture
@@ -470,7 +470,7 @@ traverses the network impacts the speed of application performance.
                 </p>
 
                 <img src="content/assets/engineering/fig2.png"
-                class="figure"/>
+                height="300" class="figure"/>
 
                 <p class="caption">
                   Fig. 2. 3G and 4G downlink latency
@@ -493,7 +493,7 @@ downlink latency for VoIP. The latency ranged from 46-61 ms and is below
                 </p>
 
                 <img src="content/assets/engineering/fig3.png"
-                class="figure"/>
+                height="300" class="figure"/>
 
                 <p class="caption">
                   Fig. 3. 3G and 4G uplink latency
@@ -550,7 +550,7 @@ allow for light to medium workload processing.
                 </p>
 
                 <img src="content/assets/engineering/fig4.png"
-                class="figure"/>
+                height="300" class="figure"/>
 
                 <p class="caption">
                   Fig. 4. Throughput
