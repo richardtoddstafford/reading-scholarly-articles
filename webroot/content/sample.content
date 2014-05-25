@@ -98,13 +98,5 @@ Section text.
     </div>
 
 
-    <script>
-      $("#example").popover({
-        toggle:    "popover",
-        trigger:   "click",
-        placement: "top",
-
-        title:   "Title",
-        content: "Body",
-      });
+    <script src="content/assets/sample/annotations.js">
     </script>
