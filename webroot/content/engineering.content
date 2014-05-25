@@ -58,7 +58,7 @@
             <div class="hidden-xs row section-space">
             </div>
 
-            <div class="row">
+            <div class="row" id="abstract" rel="annotation">
               <div class="col-sm-12">
                 <p>
 <strong><em>Abstract</em></strong> — Rural areas lack connectivity to
