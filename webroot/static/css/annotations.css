@@ -3,12 +3,31 @@
   cursor: pointer;
   color: #158cba;
   text-decoration: none;
-  font-style: italic;
+
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 [rel~="annotation"]:hover {
   color: #158cba;
   text-decoration: none;
+  font-style: normal;
+
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+[rel~="annotation"].active {
+  color: #86C3DB;
+
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .popover {
