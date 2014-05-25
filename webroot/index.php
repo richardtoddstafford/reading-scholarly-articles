@@ -94,9 +94,9 @@ $path = substr($request_uri['path'], 1);
 #              case 'health':
 #                echo "Public Health";
 #                break;
-#              case 'socialscience':
-#                echo "Social Science";
-#                break;
+              case 'socialscience':
+                echo "Social Science";
+                break;
 #              case 'humanities':
 #                echo "Humanities";
 #                break;
@@ -123,9 +123,9 @@ $path = substr($request_uri['path'], 1);
 #      case 'health':
 #        include("content/health.content");
 #        break;
-#      case 'socialscience':
-#        include("content/socialscience.content");
-#        break;
+      case 'socialscience':
+        include("content/socialscience.content");
+        break;
 #      case 'humanities':
 #        include("content/humanities.content");
 #        break;
