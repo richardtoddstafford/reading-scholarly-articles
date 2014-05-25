@@ -1,4 +1,4 @@
-[rel~="popover"] {
+[rel~="annotation"] {
   display: block;
   cursor: pointer;
   color: #158cba;
@@ -6,7 +6,7 @@
   font-style: italic;
 }
 
-[rel~="popover"]:hover {
+[rel~="annotation"]:hover {
   color: #158cba;
   text-decoration: none;
 }
