@@ -103,24 +103,31 @@ Popover annotations consist of two parts: the trigger and the content.
 
 The trigger of a popover annotation is the portion of the article text that
 will become interactive. To mark a portion of the HTML article as
-interactive, simply modify it as
+interactive, simply modify the containing HTML element as:
 
-    <a id="AnnotationName" class="trigger">text for trigger</a>
+    id="AnnotationName"
+    rel="annotation"
+
+The `id` will be the name of this annotation. The `rel` attribute is used
+to style and define behaviour of the triggering element.
 
 #### Adding the content
 
 Now that you have the `AnnotationName` trigger installed, it's a simple
-matter of placing the following code at the very end of the article content
-file. Make sure the IDs match!
+matter of placing the following code in a new file
+`webroot/content/assets/newfield/annotations.js`:
 
+    $("#AnnotationName").popover({
+      toggle:    "popover",
+      trigger:   "click",
+      placement: "auto", // top, left, bottom, right
 
-    <script>
-      $("#AnnotationName").popover({
-        toggle:    "popover",
-        trigger:   "click",
-        placement: "top", // top, left, bottom, right, auto
+      title:   "Title text here",
+      content: "Body text here",
+    });
 
-        title:   "Title text here",
-        content: "Body text here",
-      });
+Make sure to include this new file at the very end of the
+`newfield.content` file you created.
+
+    <script src="content/assets/newfield/annotations.js">
     </script>
