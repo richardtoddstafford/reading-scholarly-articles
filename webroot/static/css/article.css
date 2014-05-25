@@ -24,6 +24,10 @@
   font-family: "Latin Modern Serif";
 }
 
+.article .mono {
+  font-family: "Latin Modern Mono";
+}
+
 .article .uppercase, .article .section-title {
   text-transform: uppercase;
 }
