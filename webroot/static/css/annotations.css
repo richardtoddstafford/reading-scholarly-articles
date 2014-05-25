@@ -1,0 +1,12 @@
+.trigger {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+  border-left: #000 1px dotted;
+  padding-left: 10px;
+}
+
+.trigger:hover {
+  color: #158cba;
+  text-decoration: none;
+}

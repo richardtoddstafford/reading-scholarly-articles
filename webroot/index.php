@@ -17,6 +17,7 @@ $path = substr($request_uri['path'], 1);
   <link rel="stylesheet" href="static/css/bootstrap.min.css">
   <link rel="stylesheet" href="static/css/fonts.css">
   <link rel="stylesheet" href="static/css/article.css">
+  <link rel="stylesheet" href="static/css/annotations.css">
 
   <!-- Favicons
   ================================================== -->

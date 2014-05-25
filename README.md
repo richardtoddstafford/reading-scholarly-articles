@@ -105,7 +105,7 @@ The trigger of a popover annotation is the portion of the article text that
 will become interactive. To mark a portion of the HTML article as
 interactive, simply modify it as
 
-    <a id="AnnotationName">text for trigger</a>
+    <a id="AnnotationName" class="trigger">text for trigger</a>
 
 #### Adding the content
 
