@@ -20,6 +20,20 @@ the same name](https://www.lib.ncsu.edu/tutorials/scholarly-articles/)
 The only system requirement for this project is PHP 5. This is used,
 minimally, for the templating system.
 
+The following Apache virtualhost configuration directives are highly
+recommended.
+
+    ...
+    DocumentRoot /path/to/install/webroot
+    <Directory /path/to/install/webroot>
+        DirectoryIndex index.php
+        Options -Indexes
+        AllowOverride FileInfo
+        ...
+    </Directory>
+    ...
+
+
 ## Getting Started
 
 There are two main ways to contribute to this project:
@@ -71,7 +85,7 @@ and begin filling in text within the `<p></p>` blocks.
 
 To add a figure with a caption, simply use the template code:
 
-    <img src="content/assets/<field>/figXXX.png"
+    <img src="content/assets/newfield/figXXX.png"
     class="figure"/>
 
     <p class="caption">
@@ -93,7 +107,7 @@ interactive, simply modify it as
 
     <a id="AnnotationName">text for trigger</a>
 
-##### Adding the content
+#### Adding the content
 
 Now that you have the `AnnotationName` trigger installed, it's a simple
 matter of placing the following code at the very end of the article content
