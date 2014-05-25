@@ -20,16 +20,14 @@ $path = substr($request_uri['path'], 1);
   <link rel="stylesheet" href="static/css/article.css">
   <link rel="stylesheet" href="static/css/annotations.css">
 
-  <!-- Favicons
-  ================================================== -->
-  <link rel="shortcut icon" href="static/imgs/favicon.ico">
-
   <!-- Javascript
   ================================================== -->
   <script src="static/js/jquery.min.js"></script>
   <script src="static/js/bootstrap.min.js"></script>
-  <script src="static/js/latexit.js"></script>
-  <script src="static/js/annotations.js"></script>
+
+  <!-- Favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="static/imgs/favicon.ico">
 
 </head>
 <body>
@@ -152,6 +150,10 @@ $path = substr($request_uri['path'], 1);
 
   </div>
 
+  <!-- Javascript
+  ================================================== -->
+  <script src="static/js/latexit.js"></script>
+  <script src="static/js/annotations.js"></script>
 
 </body>
 </html>
