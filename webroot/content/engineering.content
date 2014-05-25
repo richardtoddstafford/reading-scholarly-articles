@@ -54,7 +54,7 @@
 
             <!-- Abstract {{{
             ========================================= -->
-            <div class="row section-space">
+            <div class="hidden-xs row section-space">
             </div>
 
             <div class="row">
@@ -83,10 +83,11 @@ in modern society.
 
             <!-- {{{ I. Introduction
             ========================================= -->
-            <div class="row section-space">
+            <div class="hidden-xs row section-space">
             </div>
 
             <div class="row">
+              <hr class="visible-xs" />
               <div class="col-sm-12 text-center section-title">
                 I. Introduction
               </div>
@@ -151,10 +152,11 @@ Section 6 with a summary of our findings.
 
             <!-- {{{ II. Background and Related Work
             ========================================= -->
-            <div class="row section-space">
+            <div class="hidden-xs row section-space">
             </div>
 
             <div class="row">
+              <hr class="visible-xs" />
               <div class="col-sm-12 text-center section-title">
                 II. Background and Related Work
               </div>
@@ -254,10 +256,11 @@ device, our study focuses on cellular networks and mobile devices.
 
             <!-- {{{ III. System Architecture
             ========================================= -->
-            <div class="row section-space">
+            <div class="hidden-xs row section-space">
             </div>
 
             <div class="row">
+              <hr class="visible-xs" />
               <div class="col-sm-12 text-center section-title">
                 III. System Architecture
               </div>
@@ -386,10 +389,11 @@ accurate latency values between the client and server.
 
             <!-- {{{ IV. Results
             ========================================= -->
-            <div class="row section-space">
+            <div class="hidden-xs row section-space">
             </div>
 
             <div class="row">
+              <hr class="visible-xs" />
               <div class="col-sm-12 text-center serif uppercase">
                 IV. Results
               </div>
@@ -580,10 +584,11 @@ TCP connection were disregarded.
 
             <!-- {{{ V. Future Work
             ========================================= -->
-            <div class="row section-space">
+            <div class="hidden-xs row section-space">
             </div>
 
             <div class="row">
+              <hr class="visible-xs" />
               <div class="col-sm-12 text-center serif uppercase">
                 V. Future Work
               </div>
@@ -636,10 +641,11 @@ of different packet scheduling schemes.
 
             <!-- {{{ VI. Conclusion
             ========================================= -->
-            <div class="row section-space">
+            <div class="hidden-xs row section-space">
             </div>
 
             <div class="row">
+              <hr class="visible-xs" />
               <div class="col-sm-12 text-center serif uppercase">
                 VI. Conclusion
               </div>
@@ -667,10 +673,11 @@ communities.
 
             <!-- {{{ References
             ========================================= -->
-            <div class="row section-space">
+            <div class="hidden-xs row section-space">
             </div>
 
             <div class="row">
+              <hr class="visible-xs" />
               <div class="col-sm-12 text-center serif uppercase">
                 References
               </div>
