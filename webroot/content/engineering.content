@@ -376,7 +376,9 @@ synchronization method used in MIST. It requires four timestamps for two
 nodes, client C and Server S: when C sends, S receives, S responds, and C
 receives response. The offset is calculated by:
 
-<div lang="latex">\frac{Creceive-Ssend+Csend-Sreceive}{2}</div>
+                <img src="content/assets/engineering/eq1.png"
+                alt="\frac{Creceive-Ssend+Csend-Sreceive}{2}"
+                class="equation"/>
 
 and used to adjust server-side times [9]. This allows us to calculate
 accurate latency values between the client and server.
