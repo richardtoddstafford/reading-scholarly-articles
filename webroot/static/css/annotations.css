@@ -1,7 +1,9 @@
 .trigger {
+  display: block;
   cursor: pointer;
   color: #158cba;
   text-decoration: none;
+  font-style: italic;
 }
 
 .trigger:hover {
@@ -11,8 +13,17 @@
 
 .popover {
   font-family: "Latin Modern Mono";
+  max-width: 80%;
 }
 
 .popover-title {
   font-family: "Latin Modern Mono";
+  text-align: center;
+}
+
+.popover-title:before {
+  position: absolute;
+  left: 15px;
+  font-family: "FontAwesome";
+  content: "\f059";
 }
