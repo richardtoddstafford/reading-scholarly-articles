@@ -101,7 +101,7 @@ variation in resource availability for the timing of parturition.  </p> </div>
             </div>
 
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-6">
 
                 <p>
 Marked impacts of climate change on biodiversity have frequently been
@@ -139,19 +139,25 @@ by climate change. Nonetheless, some species, including the great tit and red
 deer, rely on temperature [26,27] to minimize the mismatch between birth timing
 and the peak resource availability. If earlier breeding increases fitness,
 selection could also drive a micro-evolutionary change in terms of advanced
-reproductive timing [8] as long as birth date is heritable.  The relative role
-of phenotypic plasticity and micro-evolutionary change remains largely
-unquantified [28], although R&eacute;ale et al. [4] showed that the advance in birth
-timing in red squirrel was mostly due to phenotypic plasticity rather than
-micro-evolution. Although some species have advanced their birth timing in
-response to increasing temperature, some species have not [29] whereas others
-have delayed their reproductive phenology [1]. For instance, Columbian ground
-squirrels have delayed their breeding phenology by 0.47 d per year over a
-period of 20 y, leading to a reduction in fitness by a half between 1993 and
-2003 [3]. On the other hand, birth timing in caribou advanced at a much slower
-rate than the vegetation flush over a period of 33 years, so that the mismatch
-between birth timing and peak resource availability increased, causing calf
-production to decline [30,31].
+reproductive timing [8] as long as birth date is heritable.
+                </p>
+
+              </div>
+              <div class="col-sm-6">
+
+                <p>
+The relative role of phenotypic plasticity and micro-evolutionary change
+remains largely unquantified [28], although R&eacute;ale et al. [4] showed that
+the advance in birth timing in red squirrel was mostly due to phenotypic
+plasticity rather than micro-evolution. Although some species have advanced
+their birth timing in response to increasing temperature, some species have not
+[29] whereas others have delayed their reproductive phenology [1]. For
+instance, Columbian ground squirrels have delayed their breeding phenology by
+0.47 d per year over a period of 20 y, leading to a reduction in fitness by a
+half between 1993 and 2003 [3]. On the other hand, birth timing in caribou
+advanced at a much slower rate than the vegetation flush over a period of 33
+years, so that the mismatch between birth timing and peak resource availability
+increased, causing calf production to decline [30,31].
                 </p>
 
                 <p>
@@ -213,7 +219,7 @@ failure of a species to modify its phenology in response to a warming world.
             </div>
 
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-6">
 
                 <p>
 Analysis of local weather variables revealed a strong local impact of climate
@@ -237,6 +243,9 @@ standardized this measure (by subtracting the observed value of mismatch in the
 first year (1985) from this variable) to obtain a relative measure of mismatch
 ranging from 0 in 1985 to 36 d in 2011.
                 </p>
+
+              </div>
+              <div class="col-sm-6">
 
                 <p>
 In contradiction with our first prediction, annual median birth date did not
@@ -268,7 +277,7 @@ environmental cues.
             </div>
 
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-6">
 
                 <p>
 We investigated whether birth date of roe deer fulfilled the three necessary
@@ -283,6 +292,12 @@ daughter–mother pairs (b = 0.234, SE = 0.13, p = 0.094, h 2 = 0.127). Third, w
 identified directional selection favoring early births, with a strong negative
 relationship between individual birth date and individual early survival from
 May 12th onwards (on a logit scale b = 20.06, SE = 0.01, p,0.001, Figure S1).
+                </p>
+
+              </div>
+              <div class="col-sm-6">
+
+                <p>
 Note that year was included as a categorical variable in this model to control
 for interannual variation in environmental conditions affecting early survival.
 A model including a threshold effect of individual birth date on individual
@@ -320,7 +335,7 @@ population of Trois Fontaines, France from 1985 to 2011.
             </div>
 
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-6">
 
                 <p>
 t the population level, cohort-specific survival (measured as the proportion of
@@ -360,6 +375,9 @@ function linking the number of female offspring a mother has successfully
 weaned given its parturition date was modeled by individual early survival
 (Table S5, Figure 3).
                 </p>
+
+              </div>
+              <div class="col-sm-6">
 
                 <p>
 The IPM predicted mean parturition date to occur on the 17th of May each year,
@@ -410,7 +428,7 @@ the roe deer population of Trois Fontaines, France.
             </div>
 
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-6">
 
                 <p>
 This study has demonstrated that mean fitness is currently decreasing in this
@@ -457,6 +475,9 @@ versus l = 1.23 for the first year of the study). We can therefore predict that
 this increasing mismatch will further increase the energetic costs of breeding
 for females [54] as spring phenology continues to advance in the future.
                 </p>
+
+              </div>
+              <div class="col-sm-6">
 
                 <p>
 The lack of response in roe deer birth date to climate change provides a stark
@@ -544,14 +565,21 @@ population of Trois Fontaines, France.
             </div>
 
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-6">
 
                 <p>
 Trois Fontaines (48&deg;43N, 2&deg;61W) is an enclosed 1,360 ha forest located
 near Saint-Dizier, at the border of Marne and Haute-Marne counties in
 north-eastern France. In spring (from mid-March to mid-June), the number of
 rainy days averaged 31.5 (ranging between 18 and 52 d during the study period
-1985–2011) and the temperature averaged 10.4uC (ranging between 26.06&deg;C and
+1985–2011) and the temperature averaged
+                </p>
+
+              </div>
+              <div class="col-sm-6">
+
+                <p>
+10.4uC (ranging between 26.06&deg;C and
 15.00&deg;C). The forest is dominated by oak (<em>Quercus sp.</em>) and beech
 (<em>Fagus sylvatica</em>). Roe deer feed mainly on coppice and the understory
 is dominated by hornbeam (<em>Carpinus betulus</em>), ivy (<em>Hedera
@@ -569,7 +597,7 @@ helix</em>), and bramble (<em>Rubus sp.</em>).
             </div>
 
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-6">
 
                 <p>
 The roe deer population at Trois Fontaines has been intensively monitored for
@@ -582,21 +610,27 @@ were handled by experienced people, ear-tagged, and weighed. Their sex was
 recorded and their age estimated to the nearest day using umbilicus
 characteristics and behaviour at marking [61]. Birth dates were back-calculated
 using these estimated ages and the day of capture. The average age at marking
-was about 5 d, and all fawns were marked within 20 d. The identity of the
-mother for a given fawn was established, when possible, through direct
-observations of lactating behavior or by the identification of an escaping
-female in the vicinity of the fawn. From January to March, annual capture
-sessions took place, with capture of more than 50% of the roe deer population
-each year, providing reliable information on the fate of animals marked at
-birth. Individual early survival was defined as the probability of survival of
-a fawn from birth to the next winter (see [62] for further details). At Trois
-Fontaines, fawn mortality was most likely associated with shortage of
-high-quality food because this population is not subject to marked predation or
-hunting pressure. At the population level, mean cohort-specific early survival
-was estimated using Capture- Recapture analyses [63] from 1985 to 2011.
-Cohort-specific early survival could not be estimated with accuracy for 2012
-(see [62]), so these data were not included here. Data are available from Table
-S6.
+was about 5 d, and all fawns were marked within 20 d.
+                </p>
+
+              </div>
+              <div class="col-sm-6">
+
+                <p>
+The identity of the mother for a given fawn was established, when possible,
+through direct observations of lactating behavior or by the identification of
+an escaping female in the vicinity of the fawn. From January to March, annual
+capture sessions took place, with capture of more than 50% of the roe deer
+population each year, providing reliable information on the fate of animals
+marked at birth. Individual early survival was defined as the probability of
+survival of a fawn from birth to the next winter (see [62] for further
+details). At Trois Fontaines, fawn mortality was most likely associated with
+shortage of high-quality food because this population is not subject to marked
+predation or hunting pressure. At the population level, mean cohort-specific
+early survival was estimated using Capture- Recapture analyses [63] from 1985
+to 2011.  Cohort-specific early survival could not be estimated with accuracy
+for 2012 (see [62]), so these data were not included here. Data are available
+from Table S6.
                 </p>
 
               </div>
@@ -610,7 +644,7 @@ S6.
             </div>
 
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-6">
 
                 <p>
 The local daily temperature was collected from the M&eacute;t&eacute;o-France
@@ -628,7 +662,14 @@ is highly correlated with the local sum of degree-days (r = 20.61, p,0.001),
 which is often used to index vegetation growth [13,64], with spring temperature
 (r = 20.83, p,0.001) and with annual mean temperature (r = 20.57, p,0.001). As
 a consequence, flowering date in Champagne reliably indexes the overall changes
-in plant phenology over years.  When flowering date in Champagne was early in
+in plant phenology over years.
+                </p>
+
+              </div>
+              <div class="col-sm-6">
+
+                <p>
+When flowering date in Champagne was early in
 the year, we assumed that the availability of high-quality resources for roe
 deer provided by spring vegetation was also early.  Consequently, we used the
 difference between birth date and flowering date in Champagne as a measure of
@@ -656,19 +697,26 @@ birth date from the annual flowering date.
             </div>
 
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-6">
 
                 <p>
 Available data were not detailed enough to build pedigrees, so we measured
 heritability using the weighted regression of the median parturition date of
 each daughter against the median parturition date of her mother [65]. To assess
 whether roe deer birth date was under selection, we analyzed the relationship
-between birth date and early survival at the level of the individual with a
-generalized linear model and a logit link. We included year in the model to
-control for interannual variation in environmental conditions. We tested for
-linear, quadratic, and threshold effects of birth date on individual early
-survival. Finally, we tested for an interaction between birth date and year to
-investigate whether the selection pressure was similar over time.
+between birth date and early survival
+                </p>
+
+              </div>
+              <div class="col-sm-6">
+
+                <p>
+at the level of the individual with a generalized linear model and a logit
+link. We included year in the model to control for interannual variation in
+environmental conditions. We tested for linear, quadratic, and threshold
+effects of birth date on individual early survival. Finally, we tested for an
+interaction between birth date and year to investigate whether the selection
+pressure was similar over time.
                 </p>
 
               </div>
@@ -682,7 +730,7 @@ investigate whether the selection pressure was similar over time.
             </div>
 
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-6">
 
                 <p>
 To assess whether roe deer exhibited a phenotypic response to climate change,
@@ -700,6 +748,9 @@ or the birth date–vegetation phenology mismatch on individual early survival
 with a generalized linear model and a logit link. We compared the relative fit
 of the different models using the Akaike Information Criterion (AIC).
                 </p>
+
+              </div>
+              <div class="col-sm-6">
 
                 <p>
 To investigate the influence of plant phenology on mean fitness, we built an
@@ -790,7 +841,7 @@ CW. Wrote the paper: JMG TC MH CB FP DD CW.
             </div>
 
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-6">
 
                 <p class="noindent">
 1. Root TL, Price JT, Hall KR, Schneider SH, Rosenzweig C, et al. (2003) Fingerprints of global warming on wild animals and plants. Nature 421: 57– 60.
@@ -923,6 +974,9 @@ CW. Wrote the paper: JMG TC MH CB FP DD CW.
                 <p class="noindent">
 33. Gaillard JM, Delorme D, Jullien JM, Tatin D (1993) Timing and synchrony of birth in roe deer. J Mammal 74: 738–744.
                 </p>
+
+              </div>
+              <div class="col-sm-6">
 
                 <p class="noindent">
 34. Linnell JDC, Andersen R (1998) Timing and synchrony of birth in a hider species, the roe deer Capreolus capreolus. J Zool 244: 497–504.
