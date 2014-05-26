@@ -19,6 +19,7 @@ $path = substr($request_uri['path'], 1);
   <link rel="stylesheet" href="static/css/fonts.css">
   <link rel="stylesheet" href="static/css/article.css">
   <link rel="stylesheet" href="static/css/annotations.css">
+  <link rel="stylesheet" href="static/css/body.css">
 
   <!-- Javascript
   ================================================== -->
@@ -34,71 +35,79 @@ $path = substr($request_uri['path'], 1);
   <!-- Primary Page Layout
   ================================================== -->
 
-  <div class="container">
+  <div id="wrap">
+
+    <div class="container">
 
 
-    <!-- Header Row
-    ================================================ -->
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="page-header">
-          <h1>
-          <span class="pull-right"><a href="/"><i class="fa fa-home"
-          title="Return Home"></i></a></span>
-            <?php
-            switch( $path ) {
-              case 'engineering':
-                echo "Engineering";
-                break;
-              case 'science':
-                echo "Life Science";
-                break;
+      <!-- Header Row
+      ================================================ -->
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="page-header">
+            <h1>
+            <span class="pull-right"><a href="/"><i class="fa fa-home"
+            title="Return Home"></i></a></span>
+              <?php
+              switch( $path ) {
+                case 'engineering':
+                  echo "Engineering";
+                  break;
+                case 'science':
+                  echo "Life Science";
+                  break;
 #              case 'health':
 #                echo "Public Health";
 #                break;
-              case 'socialscience':
-                echo "Social Science";
-                break;
+                case 'socialscience':
+                  echo "Social Science";
+                  break;
 #              case 'humanities':
 #                echo "Humanities";
 #                break;
-              case '':
-                echo "Anatomy of a Scholarly Article";
-                break;
-              default:
-                echo "Page not found";
-            }
-            ?>
-          </h1>
+                case '':
+                  echo "Anatomy of a Scholarly Article";
+                  break;
+                default:
+                  echo "Page not found";
+              }
+              ?>
+            </h1>
+          </div>
         </div>
       </div>
-    </div>
 
-    <?php
-    switch( $path ) {
-      case 'engineering':
-        include("content/engineering.content");
-        break;
-      case 'science':
-        include("content/science.content");
-        break;
+      <?php
+      switch( $path ) {
+        case 'engineering':
+          include("content/engineering.content");
+          break;
+        case 'science':
+          include("content/science.content");
+          break;
 #      case 'health':
 #        include("content/health.content");
 #        break;
-      case 'socialscience':
-        include("content/socialscience.content");
-        break;
+        case 'socialscience':
+          include("content/socialscience.content");
+          break;
 #      case 'humanities':
 #        include("content/humanities.content");
 #        break;
-      case '':
-        include("content/index.content");
-      default:
-        break;
-    }
-    ?>
+        case '':
+          include("content/index.content");
+        default:
+          break;
+      }
+      ?>
 
-    <footer>
+    </div>
+
+  </div>
+
+  <div id="footer">
+
+    <div class="container">
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1 text-center">
           <span class="pull-right"><a href="#top">Return to top</a></span>
@@ -108,8 +117,7 @@ $path = substr($request_uri['path'], 1);
           reserved</a>.
         </div>
       </div>
-    </footer>
-
+    </div>
 
   </div>
 
