@@ -5,15 +5,18 @@ the same name](https://www.lib.ncsu.edu/tutorials/scholarly-articles/)
 
 ## Release 0.3
 
-* Added initial CSS framework.
-* Minimally structured website.
-* Introduced simple PHP templating system
-* Completed Engineering articles translation
+* Reworked landing page structure
+* Finished styling annotations
+* Created several fields' papers
 
 ### ToDo
 
-* Add in 'popover' text descriptions.
-* Create more articles
+* Add more fields
+  * Create Pulic Health article
+  * Create Humanities article
+* Create annotations for every field
+* Push down footer
+* Change colorscheme
 
 ## Setup
 
