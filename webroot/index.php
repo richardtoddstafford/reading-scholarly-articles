@@ -31,48 +31,8 @@ $path = substr($request_uri['path'], 1);
 
 </head>
 <body>
-
-
-  <!-- Navigation Bar
-  ================================================== -->
-
-  <div class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">Anatomy of a Scholarly Article</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="/">About</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle"
-            data-toggle="dropdown">Select Field <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="/engineering">Engineering</a></li>
-              <li><a href="/science">Life Science</a></li>
-              <li><a href="/health">Public Health</a></li>
-              <li><a href="/socialscience">Social Science</a></li>
-              <li><a href="/humanities">Humanities</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container -->
-  </div>
-
-
   <!-- Primary Page Layout
   ================================================== -->
-
-
 
   <div class="container">
 
@@ -80,9 +40,11 @@ $path = substr($request_uri['path'], 1);
     <!-- Header Row
     ================================================ -->
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-md-10 col-md-offset-1">
         <div class="page-header">
           <h1>
+          <span class="pull-right"><a href="/"><i class="fa fa-home"
+          title="Return Home"></i></a></span>
             <?php
             switch( $path ) {
               case 'engineering':
@@ -138,7 +100,8 @@ $path = substr($request_uri['path'], 1);
 
     <footer>
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
+          <span class="pull-right"><a href="#top">Return to top</a></span>
           Built by <a href="http://michel.rouly.net">Michel Rouly</a> for
           <a href="//gmu.edu">George Mason University</a> with
           <a href="http://www.gnu.org/licenses/gpl-3.0.txt">some rights
