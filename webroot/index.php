@@ -46,8 +46,8 @@ $path = substr($request_uri['path'], 1);
         <div class="col-md-10 col-md-offset-1">
           <div class="page-header">
             <h1>
-            <span class="pull-right"><a href="/"><i class="fa fa-home"
-            title="Return Home"></i></a></span>
+            <span class="pull-left"><a href="/"><i class="fa fa-home fa-fw"
+            title="Return Home"></i></a>&nbsp;</span>
               <?php
               switch( $path ) {
                 case 'engineering':
