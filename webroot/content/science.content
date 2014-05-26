@@ -142,14 +142,17 @@ selection could also drive a micro-evolutionary change in terms of advanced
 reproductive timing [8] as long as birth date is heritable.
                 </p>
 
-              </div>
-              <div class="col-sm-6">
-
                 <p>
 The relative role of phenotypic plasticity and micro-evolutionary change
 remains largely unquantified [28], although R&eacute;ale et al. [4] showed that
 the advance in birth timing in red squirrel was mostly due to phenotypic
 plasticity rather than micro-evolution. Although some species have advanced
+                </p>
+
+              </div>
+              <div class="col-sm-6">
+
+                <p>
 their birth timing in response to increasing temperature, some species have not
 [29] whereas others have delayed their reproductive phenology [1]. For
 instance, Columbian ground squirrels have delayed their breeding phenology by
@@ -294,9 +297,6 @@ relationship between individual birth date and individual early survival from
 May 12th onwards (on a logit scale b = 20.06, SE = 0.01, p,0.001, Figure S1).
                 </p>
 
-              </div>
-              <div class="col-sm-6">
-
                 <p>
 Note that year was included as a categorical variable in this model to control
 for interannual variation in environmental conditions affecting early survival.
@@ -311,6 +311,9 @@ to individual birth date was consistent across cohorts. Taken together these
 results suggest that we should not expect a strong micro-evolutionary response
 of parturition date in roe deer.
                 </p>
+
+              </div>
+              <div class="col-sm-6">
 
                 <img src="content/assets/science/fig1.png"
                 height="450" class="figure"/>
@@ -476,9 +479,6 @@ this increasing mismatch will further increase the energetic costs of breeding
 for females [54] as spring phenology continues to advance in the future.
                 </p>
 
-              </div>
-              <div class="col-sm-6">
-
                 <p>
 The lack of response in roe deer birth date to climate change provides a stark
 contrast with the previous findings on most mammalian species studied to date,
@@ -495,6 +495,9 @@ similar results and clearly indicated no change in roe deer reproductive
 timing. Although roe deer did not exhibit an evolutionary response to climate
 change, why have they not responded plastically [4,20]?
                 </p>
+
+              </div>
+              <div class="col-sm-6">
 
                 <p>
 Roe deer females appear unable to track environmental cues such as temperature
