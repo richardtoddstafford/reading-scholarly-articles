@@ -2,9 +2,9 @@
 
       <!-- Homepage Side Panel
       ============================================== -->
-      <div class="col-sm-3 col-md-offset-1 col-xs-12">
+      <div class="col-sm-3 col-md-offset-1 col-xs-12 text-center">
         <h3>Available Fields</h3>
-        <ul class="nav nav-pills nav-stacked" style="max-width: 300px;">
+        <ul class="nav nav-pills nav-stacked">
           <li><a href="#about-engineering" data-toggle="tab">Engineering</a></li>
           <li><a href="#about-science" data-toggle="tab">Life Science</a></li>
           <li><a href="#about-health" data-toggle="tab">Public Health</a></li>
@@ -22,7 +22,9 @@
           <div class="tab-pane fade in active" id="default">
             <h3>About</h3>
             <p>
-              This is a really cool tool ...
+              <strong>Anatomy of a Scholarly Article</strong> is a research
+              tool to help students understand the necessary components and
+              overall structure of scholarly research papers.
             </p>
           </div>
 
