@@ -98,7 +98,9 @@ $path = substr($request_uri['path'], 1);
 #        break;
         case '':
           include("content/index.content");
+          break;
         default:
+          include("content/notfound.content");
           break;
       }
       ?>
