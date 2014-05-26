@@ -46,3 +46,11 @@
   font-family: "FontAwesome";
   content: "\f059";
 }
+
+.popover-example .popover {
+  position: relative;
+  display: block;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
