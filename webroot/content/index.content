@@ -28,12 +28,12 @@
               overall structure of scholarly research papers.
             </p>
 
-            <h4>Annotations</h4>
+            <h4>Explanations</h4>
             <p>
               Along the left is a series of available research fields. Each
               field is represented by a prototypical research paper from
               that field. These papers are annotated with descriptions or
-              explanations for each component. Annotations look like this:
+              explanations for each component. Explanations look like this:
             </p>
 
             <div class="popover-example">
@@ -50,7 +50,7 @@
             </div>
 
             <p>
-              You can activate one of these annotations by clicking on a
+              You can activate one of these explanations by clicking on a
               "trigger" in the text, or one of the highlighted sections.
               Highlighted sections look like this:
 
