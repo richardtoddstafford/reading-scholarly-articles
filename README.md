@@ -3,20 +3,23 @@
 This project is heavily based on the original [NCSU Library application by
 the same name](https://www.lib.ncsu.edu/tutorials/scholarly-articles/)
 
-## Release 0.3
+## Release 0.4
 
-* Reworked landing page structure
-* Finished styling annotations
-* Created several fields' papers
+* Pushed down footer
+* Changed project name
 
 ### ToDo
 
-* Add more fields
+* Add more fields' papers
   * Create Pulic Health article
   * Create Humanities article
 * Create annotations for every field
-* Push down footer
 * Change colorscheme
+* Use a simpler font
+* Make annotation triggers more visually distinctive
+* Flesh out homepage text & documentation
+* Make the 'return home' icon a little more distinct
+* Add a copyright notice at the bottom of each article
 
 ## Setup
 
