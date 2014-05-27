@@ -1,0 +1,101 @@
+    <!-- Center Panel (ie. text)
+    ================================================ -->
+    <div class="row">
+
+      <div class="col-md-10 col-md-offset-1 col-sm-12">
+        <div class="panel panel-primary article">
+          <div class="panel-heading text-center">
+          </div>
+
+          <div class="panel-body">
+
+            <!-- Title of Article {{{
+            ========================================= -->
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="text-center">Sample Title</h2>
+              </div>
+            </div>
+            <!-- }}} -->
+
+
+            <!-- Article Authors {{{
+            ========================================= -->
+            <div class="row">
+              <hr class="visible-xs" />
+              <div class="col-sm-4 text-center">
+                <strong>Author 1</strong><br/>
+                X<br/>
+                X<br/>
+                X<br/>
+                X
+              </div>
+              <hr class="visible-xs" />
+              <div class="col-sm-4 text-center">
+                <strong>Author 2</strong><br/>
+                X<br/>
+                X<br/>
+                X<br/>
+                X
+              </div>
+              <hr class="visible-xs" />
+              <div class="col-sm-4 text-center">
+                <strong>Author 3</strong><br/>
+                X<br/>
+                X<br/>
+                X<br/>
+                X
+              </div>
+              <hr class="visible-xs" />
+            </div>
+            <!-- }}} -->
+
+
+            <!-- Abstract {{{
+            ========================================= -->
+            <div class="hidden-xs row section-space">
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <p>
+<strong><em>Abstract</em></strong> — Content.
+                </p>
+              </div>
+            </div>
+            <!-- }}} -->
+
+
+            <!-- {{{ Section
+            ========================================= -->
+            <div class="hidden-xs row section-space">
+            </div>
+
+            <div class="row">
+              <hr class="visible-xs" />
+              <div class="col-sm-12 text-center serif uppercase">
+                I. Section Title
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+
+                <p>
+Section text.
+                </p>
+
+              </div>
+            </div>
+            <!-- }}} -->
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <script src="content/assets/sample/annotations.js">
+    </script>

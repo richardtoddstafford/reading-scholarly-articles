@@ -1,0 +1,56 @@
+[rel~="annotation"] {
+  display: block;
+  cursor: pointer;
+  color: #158cba;
+  text-decoration: none;
+
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+[rel~="annotation"]:hover {
+  color: #158cba;
+  text-decoration: none;
+  font-style: normal;
+
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+[rel~="annotation"].active {
+  color: #86C3DB;
+
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.popover {
+  font-family: "Latin Modern Mono";
+  max-width: 80%;
+}
+
+.popover-title {
+  font-family: "Latin Modern Mono";
+  text-align: center;
+}
+
+.popover-title:before {
+  position: absolute;
+  left: 15px;
+  font-family: "FontAwesome";
+  content: "\f059";
+}
+
+.popover-example .popover {
+  position: relative;
+  display: block;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
