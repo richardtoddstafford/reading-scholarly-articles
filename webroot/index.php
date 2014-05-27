@@ -10,7 +10,7 @@ $path = substr($request_uri['path'], 1);
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>Anatomy of a Scholarly Article</title>
+  <title>Reading a Scholarly Article</title>
 
   <!-- CSS
   ================================================== -->
@@ -68,7 +68,7 @@ $path = substr($request_uri['path'], 1);
 #                echo "Humanities";
 #                break;
                 case '':
-                  echo "Anatomy of a Scholarly Article";
+                  echo "Reading a Scholarly Article";
                   break;
                 default:
                   echo "Page not found";
