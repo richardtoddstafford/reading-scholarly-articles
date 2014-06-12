@@ -1,5 +1,5 @@
 .article {
-  font-family: "Latin Modern Serif";
+  font-family: "Lato", sans-serif;
   font-weight: normal;
   font-style: normal;
   text-align: justify;
@@ -15,15 +15,15 @@
 }
 
 .article .sans {
-  font-family: "Latin Modern Sans";
+  font-family: "Lato", sans-serif;
 }
 
 .article .serif {
-  font-family: "Latin Modern Serif";
+  font-family: "Merriweather", serif;
 }
 
 .article .mono {
-  font-family: "Latin Modern Mono";
+  font-family: "Source Code Pro", monospace;
 }
 
 .article .uppercase {
