@@ -1,65 +1,8 @@
-/* Roman font family */
-@font-face {
-  font-family: "Latin Modern Serif";
-  src: url('/static/fonts/lmroman10-regular.otf');
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Latin Modern Serif";
-  src: url('/static/fonts/lmroman10-italic.otf');
-  font-style: italic;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Latin Modern Serif";
-  src: url('/static/fonts/lmroman10-bold.otf');
-  font-style: normal;
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Latin Modern Serif";
-  src: url('/static/fonts/lmroman10-bolditalic.otf');
-  font-style: italic;
-  font-weight: bold;
-}
+/* Sans-Serif font family: Lato */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 
-/* Sans font family */
-@font-face {
-  font-family: "Latin Modern Sans";
-  src: url('/static/fonts/lmsans10-regular.otf');
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Latin Modern Sans";
-  src: url('/static/fonts/lmsans10-oblique.otf');
-  font-style: italic;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Latin Modern Sans";
-  src: url('/static/fonts/lmsans10-bold.otf');
-  font-style: normal;
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Latin Modern Sans";
-  src: url('/static/fonts/lmsans10-boldoblique.otf');
-  font-style: italic;
-  font-weight: bold;
-}
+/* Serif font family: Merriweather */
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic);
 
-/* Mono font family */
-@font-face {
-  font-family: "Latin Modern Mono";
-  src: url('/static/fonts/lmmono10-regular.otf');
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Latin Modern Mono";
-  src: url('/static/fonts/lmmono10-italic.otf');
-  font-style: italic;
-  font-weight: normal;
-}
+/* Monospace font family: Source Code Pro */
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
