@@ -13,7 +13,7 @@
             ========================================= -->
             <div class="row">
               <div class="col-sm-12">
-                <h2 class="text-center" id="title" rel="annotation">
+                <h2 class="text-center serif" id="title" rel="annotation">
                 Geographic Variation of Mobile Application
                 Usability</h2>
               </div>
