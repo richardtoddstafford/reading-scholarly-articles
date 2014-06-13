@@ -60,6 +60,13 @@
               </span>
             </p>
 
+            <h4>Getting to this page</h4>
+            <p>
+              You can always click the blue home
+              (<a><i class="fa fa-home" title="Return Home"></i></a>)
+              icon to return here.
+            </p>
+
           </div>
 
           <div class="tab-pane fade" id="about-engineering">
