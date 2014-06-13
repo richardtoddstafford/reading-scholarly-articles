@@ -47,7 +47,7 @@ There are two main ways to contribute to this project:
 * adding new article translations
 * maintaining popover article annotations
 
-### Adding New Translations
+### Adding New Papers
 
 Creating a new article translation is a labor intensive process. The first
 step is duplicating the sample article in the content directory:
@@ -117,11 +117,16 @@ interactive, simply modify the containing HTML element as:
 The `id` will be the name of this annotation. The `rel` attribute is used
 to style and define behaviour of the triggering element.
 
+For example, an annotation on a paragraph might look like
+
+    <p id="AnnotationName" rel="annotation"> ... </p>
+
 #### Adding the content
 
 Now that you have the `AnnotationName` trigger installed, it's a simple
 matter of placing the following code in a new file
-`webroot/content/assets/newfield/annotations.js`:
+`webroot/content/assets/newfield/annotations.js` (change `newfield` to the
+name of the field you're creating):
 
     $("#AnnotationName").popover({
       toggle:    "popover",
@@ -132,7 +137,9 @@ matter of placing the following code in a new file
       content: "Body text here",
     });
 
-Make sure to include this new file at the very end of the
+#### Linking the content
+
+Make sure to include this new javascript file at the very end of the
 `newfield.content` file you created.
 
     <script src="content/assets/newfield/annotations.js">
