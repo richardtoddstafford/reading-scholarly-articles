@@ -70,35 +70,35 @@
           </div>
 
           <div class="tab-pane fade" id="about-engineering">
-            <h3><a href="/engineering">Engineering</a></h3>
+            <h3><a target="_blank" href="/engineering">Engineering</a></h3>
             <p>
               Engineering is ...
             </p>
           </div>
 
           <div class="tab-pane fade" id="about-science">
-            <h3><a href="/science">Life Science</a></h3>
+            <h3><a target="_blank" href="/science">Life Science</a></h3>
             <p>
               Life or hard science is ...
             </p>
           </div>
 
           <div class="tab-pane fade" id="about-health">
-            <h3><a href="/health">Public Health</a></h3>
+            <h3><a target="_blank" href="/health">Public Health</a></h3>
             <p>
               Public Health is ...
             </p>
           </div>
 
           <div class="tab-pane fade" id="about-socialscience">
-            <h3><a href="/socialscience">Social Science</a></h3>
+            <h3><a target="_blank" href="/socialscience">Social Science</a></h3>
             <p>
               Social Science is ...
             </p>
           </div>
 
           <div class="tab-pane fade" id="about-humanities">
-            <h3><a href="/humanities">Humanities</a></h3>
+            <h3><a target="_blank" href="/humanities">Humanities</a></h3>
             <p>
               Humanities is ...
             </p>
