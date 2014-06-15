@@ -25,9 +25,9 @@ function getAnnotations( field ) {
         console.error( "Field name '" + field + "' was not found in the " +
           "annotations dictionary." );
         return;
-      } else {
-        console.log( "Found '" + field + "' in JSON dictionary." );
       }
+
+      console.log( "Found '" + field + "' in JSON dictionary." );
 
       // Loop over each annotation found and set its trigger's alt text as
       // well as define the popover for it.
@@ -46,7 +46,7 @@ function getAnnotations( field ) {
             placement: "auto",
 
             title:   annotation.title,
-            content: annotation.string,
+            content: annotation.string
           });
         }
       );
