@@ -124,23 +124,37 @@ For example, an annotation on a paragraph might look like
 #### Adding the content
 
 Now that you have the `AnnotationName` trigger installed, it's a simple
-matter of placing the following code in a new file
-`webroot/content/assets/newfield/annotations.js` (change `newfield` to the
-name of the field you're creating):
+matter of adding a section to the central annotation dictionary file,
+`webroot/content/assets/annotations.json`. Note that this file follows
+standard JSON syntax, so make sure to check that it's valid after every
+edit by using a tool like [JSONLint](http://jsonlint.com).
 
-    $("#AnnotationName").popover({
-      toggle:    "popover",
-      trigger:   "click",
-      placement: "auto", // top, left, bottom, right
+    "newfield": [
+      {
+        "id": "#AnnotationName",
+        "title": "Annotation Title",
+        "string": "The body of the annotation."
+      },
+      {
+        "id": "#AnotherAnnotation",
+        "title": "Annotation Title",
+        "string": "The body of another annotation."
+      }
+    ]
 
-      title:   "Title text here",
-      content: "Body text here",
-    });
+If you're unfamiliar with JSON syntax, good
+[tutorials](http://www.w3schools.com/json/) are available online. One of
+the most common issues is forgetting commas "," when required.
 
-#### Linking the content
+#### Linking to the content
 
-Make sure to include this new javascript file at the very end of the
-`newfield.content` file you created.
+Now that annotations and their triggers are defined, insert this code at
+the end of the `newfield.content` file you just created.
 
-    <script src="content/assets/newfield/annotations.js">
+    <script>
+      getAnnotations( "newfield" );
     </script>
+
+This code activates the annotations defined in `annotations.json` for the
+`newfield.content` page. Make sure that the `newfield` name you picked
+matches.
