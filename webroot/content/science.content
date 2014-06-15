@@ -1083,5 +1083,6 @@ it was licensed under a
     </div>
 
 
-    <script src="content/assets/science/annotations.js">
+    <script>
+      getAnnotations( "science" );
     </script>

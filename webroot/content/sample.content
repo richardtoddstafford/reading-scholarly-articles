@@ -102,5 +102,6 @@ Section text.
     </div>
 
 
-    <script src="content/assets/sample/annotations.js">
+    <script>
+      getAnnotations( "sample" );
     </script>

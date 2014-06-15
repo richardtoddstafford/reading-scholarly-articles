@@ -1255,5 +1255,6 @@ it was licensed under a
     </div>
 
 
-    <script src="content/assets/socialscience/annotations.js">
+    <script>
+      getAnnotations( "socialscience" );
     </script>
