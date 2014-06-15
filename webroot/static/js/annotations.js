@@ -52,6 +52,12 @@ function getAnnotations( field ) {
       );
 
     }
-  );
+  )
+  .fail(function() { // let the user know if the json failed to parse
+    console.error( "Unable to retrieve JSON file, possibly due to syntax error." );
+  })
+  .done(function() { // let the user know if the json successfully parsed
+    console.log( "JSON parsing completed." );
+  });
 
 }
