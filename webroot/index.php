@@ -128,7 +128,7 @@ $path = substr($request_uri['path'], 1);
   <!-- Javascript
   ================================================== -->
   <script src="static/js/latexit.js"></script>
-  <script src="static/js/annotations.js"></script>
+  <script src="static/js/activation.js"></script>
 
 </body>
 </html>
