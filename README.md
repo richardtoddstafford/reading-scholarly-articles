@@ -7,6 +7,10 @@ the same name](https://www.lib.ncsu.edu/tutorials/scholarly-articles/)
 
 * Pushed down footer
 * Changed project name
+* Made annotation dictionary easier to edit (JSON)
+* Simplified font (made more readable)
+* Added a copyright notice at the bottom of each article
+* Noted the 'return home' icon in tool instructions
 
 ### ToDo
 
@@ -15,11 +19,8 @@ the same name](https://www.lib.ncsu.edu/tutorials/scholarly-articles/)
   * Create Humanities article
 * Create annotations for every field
 * Change colorscheme
-* Use a simpler font
 * Make annotation triggers more visually distinctive
 * Flesh out homepage text & documentation
-* Make the 'return home' icon a little more distinct
-* Add a copyright notice at the bottom of each article
 
 ## Setup
 
@@ -99,7 +100,8 @@ To add a figure with a caption, simply use the template code:
     </p>
 
 and place it inline at the same level as the `<p></p>` blocks of your
-section.
+section. Graphical assets can be stored in a new folder
+`webroot/content/assets/newfield`.
 
 ### Adding New Popover Annotations
 
@@ -144,7 +146,7 @@ edit by using a tool like [JSONLint](http://jsonlint.com).
 
 If you're unfamiliar with JSON syntax, good
 [tutorials](http://www.w3schools.com/json/) are available online. One of
-the most common issues is forgetting commas "," when required.
+the most common issues is forgetting commas `,` when required.
 
 #### Linking to the content
 
