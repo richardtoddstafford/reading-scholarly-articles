@@ -40,6 +40,9 @@ recommended.
     </Directory>
     ...
 
+Specifically, `AllowOVerride FileInfo` is required to enable the URL
+routing system.
+
 
 ## Getting Started
 
