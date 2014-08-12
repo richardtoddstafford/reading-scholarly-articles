@@ -54,10 +54,12 @@
               "trigger" in the text, or one of the highlighted sections.
               Highlighted sections look like this:
 
-              <span rel="annotation" class="text-center"
-              style="display:inline;">
-                This is an annotated component. Click on it to see it get highlighted!
-              </span>
+              <div class="example-trigger">
+                <div rel="annotation" class="row">
+                  This is an annotated component. Click or hover on it to
+                  see it get highlighted!
+                </div>
+              </div>
             </p>
 
             <h4>Getting to this page</h4>
