@@ -1,34 +1,40 @@
+.example-trigger {
+  display: block;
+  margin: 20px;
+  text-align: center;
+}
+
 [rel~="annotation"] {
   box-sizing: border-box;
   display: block;
   cursor: pointer;
   text-decoration: none;
+
+  margin: 5px 0px;
+  padding: 10px 0px;
+
+  border-radius: 20px;
+  border-left: 5px solid #EBEBEB;
+  border-right: 5px solid #EBEBEB;
+
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
-[rel~="annotation"]:before {
-  font-family: "FontAwesome";
-  content: "\f075";
-  position: absolute;
-  z-index: 1;
-  left: 0px;
-  color: #158cba;
+[rel~="annotation"].active, [rel~="annotation"]:hover {
+  border-top: 1px solid #C9C9C9;
+  border-bottom: 1px solid #C9C9C9;
 
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  border-left: 5px solid #C9C9C9;
+  border-right: 5px solid #C9C9C9;
 }
 
-[rel~="annotation"].active:before {
-  color: #86C3DB;
-}
 
-[rel~="annotation"].active {
-  border-top: 1px solid rgb(231, 231, 231);
-  border-bottom: 1px solid rgb(231, 231, 231);
-  margin-top: -1px;
-  margin-bottom: -1px;
-}
 
 .popover {
   font-family: "Source Code Pro", monospace;
