@@ -33,7 +33,7 @@ $path = substr($request_uri['path'], 1);
 
 </head>
 <body>
-  <span id="top">
+  <span id="top"></span>
 
   <!-- Primary Page Layout
   ================================================== -->
