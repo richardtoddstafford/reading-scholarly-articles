@@ -25,3 +25,4 @@ done
 rmdir tmp
 
 cp -r static webroot/
+cp -r assets webroot/
