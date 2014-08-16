@@ -1,8 +1,8 @@
-    <!-- Center Panel (ie. text)
-    ================================================ -->
     <div class="row">
+      <div class="col-md-10 col-md-offset-1 col-xs-12">
 
-      <div class="col-md-10 col-md-offset-1 col-sm-12">
+        <h4><a href="eng-intro.html">Overview</a> / Article</h4>
+
         <div class="panel panel-primary article">
           <div class="panel-heading text-center">
           </div>
