@@ -5,6 +5,7 @@ set -e
 # Clean up first
 clean.sh
 mkdir -p tmp
+mkdir -p webroot
 
 for page in pages/content/*
 do
