@@ -3,7 +3,7 @@
 set -e
 
 # Clean up first
-rm -f webroot/*.html
+clean.sh
 mkdir -p tmp
 
 for page in pages/content/*
@@ -23,3 +23,5 @@ do
 done
 
 rmdir tmp
+
+cp -r static webroot/

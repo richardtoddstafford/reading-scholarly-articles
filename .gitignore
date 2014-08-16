@@ -1,2 +1,3 @@
 *.swp
 webroot/*.html
+webroot/static
