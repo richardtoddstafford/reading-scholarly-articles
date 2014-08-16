@@ -14,7 +14,7 @@ do
 
   cat layout/head.html        >  "tmp/$FILENAME.html"
   cat pages/content/$FILENAME >> "tmp/$FILENAME.html"
-  cat layout/bottom.html      >> "tmp/$FILENAME.html"
+  cat layout/foot.html        >> "tmp/$FILENAME.html"
 
   sed -i "s|{{ TITLE }}|$TITLE|" "tmp/$FILENAME.html"
 
