@@ -34,6 +34,16 @@
   border-right: 5px solid #C9C9C9;
 }
 
+/*
+ * Enable this code block for simple inline text highlighting.
+ */
+
+/*
+[rel~="annotation"] {
+  background-color: #FFFF00;
+  cursor: pointer;
+}
+*/
 
 
 .popover {
