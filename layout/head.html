@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Reading a Scholarly Article</title>
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/static/css/fonts.css">
+  <link rel="stylesheet" href="/static/css/article.css">
+  <link rel="stylesheet" href="/static/css/annotations.css">
+  <link rel="stylesheet" href="/static/css/body.css">
+
+  <!-- Javascript
+  ================================================== -->
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+  <script src="/static/js/annotations.js"></script>
+
+  <!-- Favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="/static/imgs/favicon.ico">
+
+</head>
+<body>
+  <span id="top"></span>
+
+  <!-- Primary Page Layout
+  ================================================== -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" tabindex="1" href="index.html">
+      <i class="fa fa-home fa-fw" title="Return Home"></i></a>
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav">
+      <li class="dropdown" id="fields">
+        <a href="#" class="dropdown-toggle" tabindex="2"
+        data-toggle="dropdown">Available Fields <b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu">
+          <li class="dropdown-header">STEM</li>
+          <li><a href="/intros/cs.html" tabindex="3">
+            Computer Science</a></li>
+          <li><a href="/intros/eng.html" tabindex="4">
+            Engineering</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-header">Science</li>
+          <li><a href="/intros/med.html" tabindex="5">
+            Health Science</a></li>
+          <li><a href="/intros/sci.html" tabindex="6">
+            Life Sciences</a></li>
+          <li><a href="/intros/psy" tabindex="7">
+            Psychology</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-header">Humanities</li>
+          <li><a href="/intros/hst.html" tabindex="8">
+            History</a></li>
+          <li><a href="/intros/lit.html" tabindex="9">
+            Literature</a></li>
+          <li><a href="/intros/gov.html" tabindex="10">
+            Policy and Government</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+  <div id="wrap">
+
+    <div class="container">
+
+
+      <!-- Header Row
+      ================================================ -->
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="page-header">
+            <h1>
+            <span class="pull-left"><a href="/"><i class="fa fa-home fa-fw"
+            title="Return Home"></i></a>&nbsp;</span>
+            {{ TITLE }}
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contents
+      ============================================== -->
+
