@@ -24,9 +24,6 @@ the same name](https://www.lib.ncsu.edu/tutorials/scholarly-articles/)
 
 ## Setup
 
-The only system requirement for this project is PHP 5. This is used,
-minimally, for the templating system.
-
 The following Apache virtualhost configuration directives are highly
 recommended.
 
@@ -35,13 +32,9 @@ recommended.
     <Directory /path/to/install/webroot>
         DirectoryIndex index.php
         Options -Indexes
-        AllowOverride FileInfo
         ...
     </Directory>
     ...
-
-Specifically, `AllowOVerride FileInfo` is required to enable the URL
-routing system.
 
 
 ## Getting Started
@@ -54,9 +47,11 @@ There are two main ways to contribute to this project:
 ### Adding New Papers
 
 Creating a new article translation is a labor intensive process. The first
-step is duplicating the sample article in the content directory:
+step is duplicating an existing article in the content and title
+directories:
 
-    cp webroot/content/sample.content webroot/content/newfield.content
+    cp pages/content/cs pages/content/newfield
+    cp pages/title/cs   pages/title/newfield
 
 Begin editing your new `newfield.content` file. It contains four sample
 sections and one sample popover annotation. Begin by completing the Title,
@@ -95,8 +90,7 @@ and begin filling in text within the `<p></p>` blocks.
 
 To add a figure with a caption, simply use the template code:
 
-    <img src="assets/newfield/figXXX.png"
-    class="figure"/>
+    <img src="assets/newfield/figXXX.png" class="figure"/>
 
     <p class="caption">
       Fig. XXX. Caption text.
@@ -130,7 +124,7 @@ For example, an annotation on a paragraph might look like
 
 Now that you have the `AnnotationName` trigger installed, it's a simple
 matter of adding a section to the central annotation dictionary file,
-`webroot/content/assets/annotations.json`. Note that this file follows
+`assets/annotations.json`. Note that this file follows
 standard JSON syntax, so make sure to check that it's valid after every
 edit by using a tool like [JSONLint](http://jsonlint.com).
 
