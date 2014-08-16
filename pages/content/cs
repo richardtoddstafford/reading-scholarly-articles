@@ -284,7 +284,7 @@ then TCP packets as specified. Afterwards it sends counters and timestamps back
 to the server in order to perform final calculations.
                 </p>
 
-                <img src="content/assets/engineering/fig1.png"
+                <img src=assets/engineering/fig1.png"
                 height="200" class="figure"/>
 
                 <p class="caption">
@@ -378,7 +378,7 @@ synchronization method used in MIST. It requires four timestamps for two nodes,
 client C and Server S: when C sends, S receives, S responds, and C
 receives response. The offset is calculated by:
 
-                <img src="content/assets/engineering/eq1.png"
+                <img src=assets/engineering/eq1.png"
                 alt="\frac{Creceive-Ssend+Csend-Sreceive}{2}"
                 class="equation"/>
 
@@ -469,7 +469,7 @@ major part of our framework because the speed at which information traverses
 the network impacts the speed of application performance.
                 </p>
 
-                <img src="content/assets/engineering/fig2.png"
+                <img src=assets/engineering/fig2.png"
                 height="300" class="figure"/>
 
                 <p class="caption">
@@ -492,7 +492,7 @@ latency ranged from 46-61 ms and is below 100 ms, so it does not cause a
 detectable delay.
                 </p>
 
-                <img src="content/assets/engineering/fig3.png"
+                <img src=assets/engineering/fig3.png"
                 height="300" class="figure"/>
 
                 <p class="caption">
@@ -554,7 +554,7 @@ in a 3G location. This speed would only allow for light to medium workload
 processing.
                 </p>
 
-                <img src="content/assets/engineering/fig4.png"
+                <img src=assets/engineering/fig4.png"
                 height="300" class="figure"/>
 
                 <p class="caption">

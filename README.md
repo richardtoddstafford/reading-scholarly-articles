@@ -95,7 +95,7 @@ and begin filling in text within the `<p></p>` blocks.
 
 To add a figure with a caption, simply use the template code:
 
-    <img src="content/assets/newfield/figXXX.png"
+    <img src="assets/newfield/figXXX.png"
     class="figure"/>
 
     <p class="caption">
