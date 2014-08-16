@@ -30,7 +30,7 @@ recommended.
     ...
     DocumentRoot /path/to/install/webroot
     <Directory /path/to/install/webroot>
-        DirectoryIndex index.php
+        DirectoryIndex index.html
         Options -Indexes
         ...
     </Directory>
