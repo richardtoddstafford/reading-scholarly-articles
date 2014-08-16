@@ -16,7 +16,7 @@ do
   cat pages/content/$FILENAME >> "tmp/$FILENAME.html"
   cat layout/bottom.html      >> "tmp/$FILENAME.html"
 
-  sed -i "s/{{ TITLE }}/$TITLE/" "tmp/$FILENAME.html"
+  sed -i "s|{{ TITLE }}|$TITLE|" "tmp/$FILENAME.html"
 
   mv tmp/$FILENAME.html webroot/
 
