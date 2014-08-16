@@ -1,0 +1,56 @@
+<div class="row">
+  <div class="col-md-10 col-md-offset-1 col-xs-12">
+
+    <h3>About the tool</h3>
+
+    <p>
+      <strong>Reading a Scholarly Article</strong> is a research
+      tool to help students understand the necessary components and
+      overall structure of scholarly research papers.
+    </p>
+
+    <h4>Navigation</h4>
+    <p>
+      You can always click the home
+      (<a><i class="fa fa-home" title="Return Home"></i></a>)
+      icon to return here. Different research fields are available by
+      using the dropdown menu in the navigation bar at the top of the
+      screen.
+    </p>
+
+    <h4>Explanations</h4>
+    <p>
+      Along the left is a series of available research fields. Each
+      field is represented by a prototypical research paper from
+      that field. These papers are annotated with descriptions or
+      explanations for each component. Explanations look like this:
+    </p>
+
+    <div class="popover-example">
+      <div class="popover right">
+        <div class="arrow"></div>
+        <h3 class="popover-title">Article Title</h3>
+        <div class="popover-content">
+          <p>No article is complete without a title! Make sure to
+          title your articles something intersting yet
+          descriptive. You want your audience to be both
+          interested <em>and</em> informed.</p>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      You can activate one of these explanations by clicking on a
+      "trigger" in the text, or one of the highlighted sections.
+      Highlighted sections look like this:
+
+      <div class="example-trigger">
+        <div rel="annotation" class="row">
+          This is an annotated component. Click or hover on it to
+          see it get highlighted!
+        </div>
+      </div>
+    </p>
+
+  </div>
+</div>
