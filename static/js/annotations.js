@@ -11,7 +11,7 @@ function getAnnotations( field ) {
    */
 
   $.getJSON(
-    "assets/annotations.json",
+    "annotations.json",
     function( data ) {
       // Read in the dictionary of annotations from a central JSON
       // dictionary.
