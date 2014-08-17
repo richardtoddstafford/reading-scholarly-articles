@@ -1,3 +1,4 @@
+/* Set article defaults. */
 .article {
   font-family: "Lato", sans-serif;
   font-weight: normal;
@@ -10,45 +11,39 @@
   */
 }
 
-.article .section-space {
-  height: 20px;
-}
 
-.article .sans {
-  font-family: "Lato", sans-serif;
-}
+/* Set heading sizes. */
+.article h1 { font-size: 3em; }
+.article h2 { font-size: 2em; }
+.article h3 { font-size: 1.5em; }
 
-.article .serif {
-  font-family: "Merriweather", serif;
-}
 
-.article .mono {
-  font-family: "Source Code Pro", monospace;
-}
+/* Set font families. */
+.article h1,
+.article .serif { font-family: "Merriweather", serif; }
 
-.article .uppercase {
-  text-transform: uppercase;
-}
+.article h2,
+.article h3,
+.article .sans { font-family: "Lato", sans-serif; }
 
-.article .italic {
-  font-style: italic;
-}
+.article .mono { font-family: "Source Code Pro", monospace; }
 
-.article .bold {
-  font-weight: bold;
-}
 
+/* Set font styles. */
+.article .italic { font-style: italic; }
+.article .bold { font-weight: bold; }
+.article .uppercase { text-transform: uppercase; }
+
+
+/* Set indentation. */
+.article p { text-indent: 15px; }
+.article p.noindent { text-indent: 0px; }
+
+
+/* Define article components. */
 .article .caption {
   text-align: center;
   font-size: 0.9em;
-}
-
-.article p {
-  text-indent: 15px;
-}
-
-.article p.noindent {
-  text-indent: 0px;
 }
 
 .article .figure {
@@ -65,4 +60,8 @@
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.article .section-space {
+  height: 20px;
 }
