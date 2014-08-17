@@ -56,7 +56,7 @@ do
   echo "  Moving into webroot."
   mv "tmp/$ID.html" webroot/
 
-  ASSETS="articles/$ID/assets"
+  ASSETS="pages/articles/$ID/assets"
   if [ -e $ASSETS ]
   then
 
