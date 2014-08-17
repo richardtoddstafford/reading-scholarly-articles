@@ -1,0 +1,54 @@
+<div class="row">
+  <div class="col-md-10 col-md-offset-1 col-xs-12">
+
+    <ul class="nav nav-pills arov center">
+      <li class="active">
+        <a role="tab" data-toggle="tab" href="#overview">Overview</a>
+      </li>
+      <li>
+        <a role="tab" data-toggle="tab" href="#article">Article</a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-10 col-md-offset-1 col-xs-12">
+
+    <div class="tab-content">
+
+      <div class="tab-pane fade in active" id="overview">
+
+        {{ OVERVIEW }}
+
+      </div>
+
+      <div class="tab-pane fade" id="article">
+        <div class="panel panel-primary article">
+          <div class="panel-heading text-center">
+          </div>
+
+          <div class="panel-body">
+
+            {{ ARTICLE }}
+
+          </div>
+
+          <div class="panel-footer text-center italic">
+
+            {{ COPYRIGHT }}
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script>
+  getAnnotations( "{{ ID }}" );
+</script>
