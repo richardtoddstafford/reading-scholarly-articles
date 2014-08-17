@@ -11,14 +11,15 @@ the same name](https://www.lib.ncsu.edu/tutorials/scholarly-articles/)
 * Simplified font (made more readable)
 * Added a copyright notice at the bottom of each article
 * Noted the 'return home' icon in tool instructions
+* Split fields into simple tree hierarchy
+* Added build scripts
+* Removed PHP templating in favour of a build system
 
 ### ToDo
 
-* Add more fields' papers
-  * Create Pulic Health article
-  * Create Humanities article
+* Finish remaining fields' papers
+* Simulate pagination
 * Create annotations for every field
-* Change colorscheme
 * Make annotation triggers more visually distinctive
 * Flesh out homepage text & documentation
 
