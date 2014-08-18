@@ -250,7 +250,7 @@ to the server in order to perform final calculations.
     </p>
 
     <img src="assets/cs/fig1.png"
-    height="200" class="figure"/>
+    width="70%" class="figure"/>
 
     <p class="caption">
       Fig. 1. Client-Server architecture
@@ -441,7 +441,7 @@ the network impacts the speed of application performance.
     </p>
 
     <img src="assets/cs/fig2.png"
-    height="300" class="figure"/>
+    width="70%" class="figure"/>
 
     <p class="caption">
       Fig. 2. 3G and 4G downlink latency
@@ -464,7 +464,7 @@ detectable delay.
     </p>
 
     <img src="assets/cs/fig3.png"
-    height="300" class="figure"/>
+    width="70%" class="figure"/>
 
     <p class="caption">
       Fig. 3. 3G and 4G uplink latency
@@ -522,7 +522,7 @@ processing.
     </p>
 
     <img src="assets/cs/fig4.png"
-    height="300" class="figure"/>
+    width="70%" class="figure"/>
 
     <p class="caption">
       Fig. 4. Throughput
