@@ -20,6 +20,8 @@
 
 .right { text-align: right; }
 
+.left { text-align: justify; }
+
 
 /* Set heading sizes. */
 .article h1 { font-size: 2.5em; }
