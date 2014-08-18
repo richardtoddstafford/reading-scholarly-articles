@@ -1,18 +1,11 @@
-<!-- Title of Article {{{
-========================================= -->
-<div class="row" id="title" rel="annotation">
+<div class="row" id="title">
   <div class="col-sm-12">
-    <h2 class="text-center serif">
-    Geographic Variation of Mobile Application
-    Usability</h2>
+    <h1> Geographic Variation of Mobile Application Usability</h1>
   </div>
 </div>
-<!-- }}} -->
 
 
-<!-- Article Authors {{{
-========================================= -->
-<div class="row" id="authors" rel="annotation">
+<div class="row" id="authors">
   <hr class="visible-xs" />
   <div class="col-sm-4 text-center">
     <strong>Maggie Lagos</strong><br/>
@@ -39,15 +32,13 @@
   </div>
   <hr class="visible-xs" />
 </div>
-<!-- }}} -->
 
 
-<!-- Abstract {{{
-========================================= -->
 <div class="hidden-xs row section-space">
 </div>
 
-<div class="row" id="abstract" rel="annotation">
+
+<div class="row" id="abstract">
   <div class="col-sm-12">
     <p>
 <strong><em>Abstract</em></strong> — Rural areas lack connectivity to
@@ -68,20 +59,15 @@ in modern society.
     </p>
   </div>
 </div>
-<!-- }}} -->
 
-
-<!-- {{{ I. Introduction
-========================================= -->
-<div class="hidden-xs row section-space">
-</div>
 
 <div class="row">
   <hr class="visible-xs" />
-  <div class="col-sm-12 text-center serif uppercase">
-    I. Introduction
+  <div class="col-sm-12">
+    <h2>I. Introduction</h2>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -137,20 +123,15 @@ Section 6 with a summary of our findings.
 
   </div>
 </div>
-<!-- }}} -->
 
-
-<!-- {{{ II. Background and Related Work
-========================================= -->
-<div class="hidden-xs row section-space">
-</div>
 
 <div class="row">
   <hr class="visible-xs" />
-  <div class="col-sm-12 text-center serif uppercase">
-    II. Background and Related Work
+  <div class="col-sm-12">
+    <h2>II. Background and Related Work</h2>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -243,20 +224,15 @@ device, our study focuses on cellular networks and mobile devices.
 
   </div>
 </div>
-<!-- }}} -->
 
-
-<!-- {{{ III. System Architecture
-========================================= -->
-<div class="hidden-xs row section-space">
-</div>
 
 <div class="row">
   <hr class="visible-xs" />
-  <div class="col-sm-12 text-center serif uppercase">
-    III. System Architecture
+  <div class="col-sm-12">
+    <h2>III. System Architecture</h2>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -283,11 +259,13 @@ to the server in order to perform final calculations.
   </div>
 </div>
 
+
 <div class="row">
-  <div class="col-sm-12 pull-left italic">
-    A. Packet Loss
+  <div class="col-sm-12">
+    <h3>A. Packet Loss</h3>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -302,11 +280,13 @@ received to measure packet loss.
   </div>
 </div>
 
+
 <div class="row">
-  <div class="col-sm-12 pull-left italic">
-    B. Throughput
+  <div class="col-sm-12">
+    <h3>B. Throughput</h3>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -327,10 +307,11 @@ or down the network in order to compute uplink and downlink speeds.
 
 
 <div class="row">
-  <div class="col-sm-12 pull-left italic">
-    C. Path Latency
+  <div class="col-sm-12">
+    <h3>C. Path Latency</h3>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -351,11 +332,13 @@ lowest latency values.
   </div>
 </div>
 
+
 <div class="row">
-  <div class="col-sm-12 pull-left italic">
-    D. Synchronization
+  <div class="col-sm-12">
+    <h3>D. Synchronization</h3>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -377,20 +360,15 @@ accurate latency values between the client and server.
 
   </div>
 </div>
-<!-- }}} -->
 
-
-<!-- {{{ IV. Results
-========================================= -->
-<div class="hidden-xs row section-space">
-</div>
 
 <div class="row">
   <hr class="visible-xs" />
-  <div class="col-sm-12 text-center serif uppercase">
-    IV. Results
+  <div class="col-sm-12">
+    <h2>IV. Results</h2>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -406,11 +384,13 @@ differences in network performance of mobile application usability.
   </div>
 </div>
 
+
 <div class="row">
-  <div class="col-sm-12 pull-left italic">
-    A. Data Collection
+  <div class="col-sm-12">
+    <h3>A. Data Collection</h3>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -442,11 +422,13 @@ bytes. The same series of packet messages was used to measure packet loss.
   </div>
 </div>
 
+
 <div class="row">
-  <div class="col-sm-12 pull-left italic">
-    B. Latency Analysis
+  <div class="col-sm-12">
+    <h3>B. Latency Analysis</h3>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -488,12 +470,6 @@ detectable delay.
       Fig. 3. 3G and 4G uplink latency
     </p>
 
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-sm-12">
-
     <p>
 Figure 3 shows uplink latency measured in the morning. The range of latency
 values in a 3G area vary from 50 ms to 239 ms. The work of Kim et al. show that
@@ -514,11 +490,13 @@ support all types of applications [3].
   </div>
 </div>
 
+
 <div class="row">
-  <div class="col-sm-12 pull-left italic">
-    C. Throughput Analysis
+  <div class="col-sm-12">
+    <h3>C. Throughput Analysis</h3>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -553,11 +531,13 @@ processing.
   </div>
 </div>
 
+
 <div class="row">
-  <div class="col-sm-12 pull-left italic">
-    D. Packet Loss Analysis
+  <div class="col-sm-12">
+    <h3>D. Packet Loss Analysis</h3>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -575,20 +555,15 @@ disregarded.
 
   </div>
 </div>
-<!-- }}} -->
 
-
-<!-- {{{ V. Future Work
-========================================= -->
-<div class="hidden-xs row section-space">
-</div>
 
 <div class="row">
   <hr class="visible-xs" />
-  <div class="col-sm-12 text-center serif uppercase">
-    V. Future Work
+  <div class="col-sm-12">
+    <h2>V. Future Work</h2>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -636,20 +611,15 @@ of different packet scheduling schemes.
 
   </div>
 </div>
-<!-- }}} -->
 
-
-<!-- {{{ VI. Conclusion
-========================================= -->
-<div class="hidden-xs row section-space">
-</div>
 
 <div class="row">
   <hr class="visible-xs" />
-  <div class="col-sm-12 text-center serif uppercase">
-    VI. Conclusion
+  <div class="col-sm-12">
+    <h2>VI. Conclusion</h2>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -672,20 +642,15 @@ communities.
 
   </div>
 </div>
-<!-- }}} -->
 
-
-<!-- {{{ References
-========================================= -->
-<div class="hidden-xs row section-space">
-</div>
 
 <div class="row">
   <hr class="visible-xs" />
-  <div class="col-sm-12 text-center serif uppercase">
-    References
+  <div class="col-sm-12">
+    <h2>References</h2>
   </div>
 </div>
+
 
 <div class="row">
   <div class="col-sm-12">
@@ -732,4 +697,3 @@ communities.
 
   </div>
 </div>
-<!-- }}} -->
