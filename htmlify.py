@@ -141,9 +141,11 @@ def main():
     data['field_id']    = read_line_valid( "Enter field ID (ex: eng, cs, sci): " ).lower()
     data['field_title'] = read_line_valid( "Enter field title: ")
 
+    """
     # Pull in overview paragraphs.
     print( "\n2) Enter the field overview, paragraph by paragraph." )
     data['overview'] = read_par_multi( )
+    """
 
 
     # Pull in title.
@@ -248,9 +250,11 @@ def main():
     copyright.write( "Nothing here." )
     copyright.close()
 
+    """
     overview = open( FILE_OVERVIEW, "w" )
     overview.write( data['overview'] )
     overview.close()
+    """
 
     article = open( FILE_ARTICLE, "w" )
     article.write( data['article'] )
