@@ -14,6 +14,8 @@ the same name](https://www.lib.ncsu.edu/tutorials/scholarly-articles/)
 * Split fields into simple tree hierarchy
 * Added build scripts
 * Removed PHP templating in favour of a build system
+* Introduced compatible block/inline trigger system
+* Created placeholder pages for fields not-yet-decided-on
 
 ### ToDo
 
@@ -37,40 +39,86 @@ recommended.
     </Directory>
     ...
 
-
 ## Getting Started
 
 There are two main ways to contribute to this project:
 
 * adding new article translations
-* maintaining popover article annotations
+* maintaining current articles
+
+### Deploy Project
+
+To build the project into the default `webroot` directory, simply run the
+build script. Point your webserver to the new directory.
+
+    $ ./build.sh
 
 ### Adding New Papers
 
 Creating a new article translation is a labor intensive process. The first
-step is duplicating an existing article in the content and title
-directories:
+step is duplicating the sample article in the article directory:
 
-    cp pages/content/cs pages/content/newfield
-    cp pages/title/cs   pages/title/newfield
+    cp -r pages/articles/sample pages/articles/newfield
 
-Begin editing your new `newfield.content` file. It contains four sample
-sections and one sample popover annotation. Begin by completing the Title,
-Author, and Abstract sections.
+This should create five new files:
 
-#### Adding a new section
+    pages/articles/newfield/annotations.json
+    pages/articles/newfield/article.html
+    pages/articles/newfield/copyright.txt
+    pages/articles/newfield/overview.html
+    pages/articles/newfield/title.txt
 
-Copy the sample Section block of code
+#### Setting the Field Title (title.txt)
 
-    <!-- {{{ Section
-    ========================================= -->
-    <div class="hidden-xs row section-space">
-    </div>
+This is the simplest component file. Just enter the title of this field on
+a single line (eg. Computer Science or Sociology).
+
+#### Field Overview (overview.html)
+
+Create an introduction to the field in this file. All the templating is
+taken care of for you, just add paragraphs in this file:
+
+    <p> ... </p>
+
+#### Article Copyright Notice (copyright.txt)
+
+Put any copyright notice for the article in plain text in this file. It can
+be blank if there is no applicable notice.
+
+#### Article Annotations (annotations.json)
+
+Enter annotations as a list of JS objects. The `id` refers to the name of
+this annotation (and is used to link in with the article text), the `title`
+is a human readable title (what appears in the popover title bar), and the
+`string` is the annotation text.
+
+    {"annotations": [
+      {
+        "id": "#sample",
+        "title": "Sample",
+        "string": "This is a sample."
+      }
+    ]}
+
+Note that this file follows standard JSON syntax, so make sure to check
+that it's valid after every edit by using a tool like
+[JSONLint](http://jsonlint.com). If you're unfamiliar with JSON syntax,
+good [tutorials](http://www.w3schools.com/json/) are available online. One
+of the most common issues is forgetting commas `,` when required.
+
+#### Article Body (article.html)
+
+This is the most time consuming part of adding a new field. Look around
+other fields for examples, but the general idea is to use standard
+Bootstrap CSS to create an approximation of a scholarly article.
+
+##### Adding a new section
+
+Copy this sample Section block of code
 
     <div class="row">
-      <hr class="visible-xs" />
-      <div class="col-sm-12 text-center serif uppercase">
-        I. Section Title
+      <div class="col-sm-12">
+        <h2>I. Section Title</h2>
       </div>
     </div>
 
@@ -83,7 +131,6 @@ Copy the sample Section block of code
 
       </div>
     </div>
-    <!-- }}} -->
 
 and begin filling in text within the `<p></p>` blocks.
 
@@ -97,15 +144,15 @@ To add a figure with a caption, simply use the template code:
       Fig. XXX. Caption text.
     </p>
 
-and place it inline at the same level as the `<p></p>` blocks of your
-section. Graphical assets can be stored in a new folder
-`webroot/content/assets/newfield`.
+and place it in your section. Graphical assets for a field (including
+figures and equations) should be stored in the folder
+`pages/articles/newfield/assets`.
 
-### Adding New Popover Annotations
+#### Adding New Popover Annotations
 
 Popover annotations consist of two parts: the trigger and the content.
 
-#### Adding a new trigger
+##### Adding a new trigger
 
 The trigger of a popover annotation is the portion of the article text that
 will become interactive. To mark a portion of the HTML article as
@@ -121,40 +168,7 @@ For example, an annotation on a paragraph might look like
 
     <p id="AnnotationName" rel="annotation"> ... </p>
 
-#### Adding the content
+If the annotation is to be an inline annotation, also set the element's
+class attribute like
 
-Now that you have the `AnnotationName` trigger installed, it's a simple
-matter of adding a section to the central annotation dictionary file,
-`assets/annotations.json`. Note that this file follows
-standard JSON syntax, so make sure to check that it's valid after every
-edit by using a tool like [JSONLint](http://jsonlint.com).
-
-    "newfield": [
-      {
-        "id": "#AnnotationName",
-        "title": "Annotation Title",
-        "string": "The body of the annotation."
-      },
-      {
-        "id": "#AnotherAnnotation",
-        "title": "Annotation Title",
-        "string": "The body of another annotation."
-      }
-    ]
-
-If you're unfamiliar with JSON syntax, good
-[tutorials](http://www.w3schools.com/json/) are available online. One of
-the most common issues is forgetting commas `,` when required.
-
-#### Linking to the content
-
-Now that annotations and their triggers are defined, insert this code at
-the end of the `newfield.content` file you just created.
-
-    <script>
-      getAnnotations( "newfield" );
-    </script>
-
-This code activates the annotations defined in `annotations.json` for the
-`newfield.content` page. Make sure that the `newfield` name you picked
-matches.
+    <p id="AnnotationName" rel="annotation" class="inline"> ... </p>
