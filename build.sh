@@ -23,10 +23,10 @@ do
 
   echo "  Generating asset filenames."
   ID=$(echo $article | sed 's/[^/]*\/[^/]*\///' )
-  TITLE_FILE="pages/articles/$ID/title"
-  ARTICLE_FILE="pages/articles/$ID/article"
-  OVERVIEW_FILE="pages/articles/$ID/overview"
-  COPYRIGHT_FILE="pages/articles/$ID/copyright"
+  TITLE_FILE="pages/articles/$ID/title.txt"
+  ARTICLE_FILE="pages/articles/$ID/article.html"
+  OVERVIEW_FILE="pages/articles/$ID/overview.html"
+  COPYRIGHT_FILE="pages/articles/$ID/copyright.txt"
   ANNOTATIONS_FILE="pages/articles/$ID/annotations.json"
 
   echo "  Checking file presence."
@@ -81,8 +81,8 @@ do
 
   echo "  Generating asset filenames."
   ID=$(echo $page | sed 's/[^/]*\/[^/]*\///' )
-  TITLE_FILE="pages/site/$ID/title"
-  BODY_FILE="pages/site/$ID/body"
+  TITLE_FILE="pages/site/$ID/title.txt"
+  BODY_FILE="pages/site/$ID/body.html"
 
   echo "  Checking file presence."
   if [ ! -f $TITLE_FILE ]; then echo "No file $TITLE_FILE found.  Exiting."; exit; fi
