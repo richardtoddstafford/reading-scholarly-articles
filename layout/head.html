@@ -5,6 +5,10 @@
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
+  <meta name="description" content="Scholarly research documentation.">
+  <meta name="keywords" content="scholarly article, reading, anatomy">
+  <meta name="author" content="Jean Michel Rouly">
+
   <title>Reading a Scholarly Article</title>
 
   <!-- CSS
@@ -33,63 +37,64 @@
 <body>
   <span id="top"></span>
 
-  <!-- Primary Page Layout
+  <!-- Navigation bar
   ================================================== -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" tabindex="1" href="index.html">
+        <i class="fa fa-home fa-fw" title="Return Home"></i></a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown" id="fields">
+          <a href="#" class="dropdown-toggle" tabindex="2"
+          data-toggle="dropdown">Scholarly Articles <b class="caret"></b></a>
+          <ul class="dropdown-menu" role="menu">
+            <li class="dropdown-header">STEM-H</li>
+            <li><a href="cs.html" tabindex="3">
+              Computer Science</a></li>
+            <li><a href="eng.html" tabindex="4">
+              Engineering</a></li>
+            <li><a href="sci.html" tabindex="5">
+              Hard Sciences</a></li>
+            <li><a href="med.html" tabindex="6">
+              Health Science</a></li>
+            <li><a href="lsci.html" tabindex="7">
+              Life Sciences</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Social Science</li>
+            <li><a href="anth.html" tabindex="8">
+              Anthropology</a></li>
+            <li><a href="crim.html" tabindex="9">
+              Criminology and Legal Studies</a></li>
+            <li><a href="edu.html" tabindex="10">
+              Education</a></li>
+            <li><a href="gov.html" tabindex="11">
+              Policy and Government</a></li>
+            <li><a href="psy.html" tabindex="12">
+              Psychology</a></li>
+            <li><a href="soci.html" tabindex="13">
+              Sociology</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Humanities</li>
+            <li><a href="hist.html" tabindex="14">
+              History</a></li>
+            <li><a href="lit.html" tabindex="15">
+              Literature</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" tabindex="1" href="index.html">
-      <i class="fa fa-home fa-fw" title="Return Home"></i></a>
-  </div>
-  <div class="navbar-collapse collapse navbar-responsive-collapse">
-    <ul class="nav navbar-nav">
-      <li class="dropdown" id="fields">
-        <a href="#" class="dropdown-toggle" tabindex="2"
-        data-toggle="dropdown">Scholarly Articles <b class="caret"></b></a>
-        <ul class="dropdown-menu" role="menu">
-          <li class="dropdown-header">STEM-H</li>
-          <li><a href="cs.html" tabindex="3">
-            Computer Science</a></li>
-          <li><a href="eng.html" tabindex="4">
-            Engineering</a></li>
-          <li><a href="sci.html" tabindex="5">
-            Hard Sciences</a></li>
-          <li><a href="med.html" tabindex="6">
-            Health Science</a></li>
-          <li><a href="lsci.html" tabindex="7">
-            Life Sciences</a></li>
-          <li class="divider"></li>
-          <li class="dropdown-header">Social Science</li>
-          <li><a href="anth.html" tabindex="8">
-            Anthropology</a></li>
-          <li><a href="crim.html" tabindex="9">
-            Criminology and Legal Studies</a></li>
-          <li><a href="edu.html" tabindex="10">
-            Education</a></li>
-          <li><a href="gov.html" tabindex="11">
-            Policy and Government</a></li>
-          <li><a href="psy.html" tabindex="12">
-            Psychology</a></li>
-          <li><a href="soci.html" tabindex="13">
-            Sociology</a></li>
-          <li class="divider"></li>
-          <li class="dropdown-header">Humanities</li>
-          <li><a href="hist.html" tabindex="14">
-            History</a></li>
-          <li><a href="lit.html" tabindex="15">
-            Literature</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</nav>
 
-
+  <!-- Primary page contents wrapper
+  ================================================== -->
   <div id="wrap">
 
     <div class="container">
@@ -107,6 +112,6 @@
         </div>
       </div>
 
-      <!-- Contents
+      <!-- Page contents
       ============================================== -->
 
