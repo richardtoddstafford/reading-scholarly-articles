@@ -1,11 +1,12 @@
 <div class="row">
   <div class="col-sm-12">
-    <h1>Geographic Variation of Mobile Application Usability</h1>
+    <h1 rel="annotation" id="title">Geographic Variation of Mobile
+    Application Usability</h1>
   </div>
 </div>
 
 
-<div class="row">
+<div class="row" rel="annotation" id="authors">
   <hr class="visible-xs" />
   <div class="col-sm-4 text-center">
     <strong>Maggie Lagos</strong><br/>
@@ -38,7 +39,7 @@
 </div>
 
 
-<div class="row">
+<div class="row" rel="annotation" id="abstract">
   <div class="col-sm-12">
     <p>
 <strong><em>Abstract</em></strong> — Rural areas lack connectivity to
@@ -96,8 +97,8 @@ bandwidth.
     </p>
 
     <p>
-In order to demonstrate whether geographic differences affect application
-performance, a client-server application has been implemented. This
+<span id="research-questions" rel="annotation" class="inline">In order to demonstrate whether geographic differences affect application
+performance</span>, a client-server application has been implemented. This
 client-server application serves as a tool for measuring user requests’
 network traffic delays. Deploying this network metrics application on
 various devices and in distinct areas will characterize geographic
