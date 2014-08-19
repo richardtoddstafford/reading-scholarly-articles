@@ -36,18 +36,27 @@ function getAnnotations( field ) {
         annotations,
         function( index, annotation ) {
 
-          // Set the alt description of the trigger element.
-          $( annotation.id ).attr('alt', annotation.string);
+          // Identify the trigger element.
+          var trigger = $( annotation.id );
 
-          // Define the popover for this annotation.
-          $( annotation.id ).popover({
-            toggle:    "popover",
-            trigger:   "click",
-            placement: "auto",
+          // Only enable popover if it's marked as an annotation.
+          if( trigger.attr('rel') === "annotation" ) {
 
-            title:   annotation.title,
-            content: annotation.string
-          });
+            // Set the alt description of the trigger element.
+            trigger.attr('alt', annotation.string);
+
+            // Define the popover for this annotation.
+            trigger.popover({
+              toggle:    "popover",
+              trigger:   "click",
+              placement: "auto",
+
+              title:   annotation.title,
+              content: annotation.string
+            });
+
+          }
+
         }
       );
 
