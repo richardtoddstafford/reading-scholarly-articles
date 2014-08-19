@@ -1,11 +1,11 @@
-<div class="row" id="title">
+<div class="row">
   <div class="col-sm-12">
     <h1> Geographic Variation of Mobile Application Usability</h1>
   </div>
 </div>
 
 
-<div class="row" id="authors">
+<div class="row">
   <hr class="visible-xs" />
   <div class="col-sm-4 text-center">
     <strong>Maggie Lagos</strong><br/>
@@ -38,7 +38,7 @@
 </div>
 
 
-<div class="row" id="abstract">
+<div class="row">
   <div class="col-sm-12">
     <p>
 <strong><em>Abstract</em></strong> — Rural areas lack connectivity to
