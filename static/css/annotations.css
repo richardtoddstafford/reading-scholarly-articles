@@ -4,11 +4,33 @@
   text-align: center;
 }
 
+
+/* Common styles to all annotation display types. */
 [rel~="annotation"] {
-  box-sizing: border-box;
-  display: block;
   cursor: pointer;
   text-decoration: none;
+
+  background-color: rgba( 255, 255, 0, 0.2 );
+
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+
+/* Active/Hover styles common to any annotation. */
+[rel~="annotation"].active,
+[rel~="annotation"]:hover {
+  background-color: rgba( 255, 255, 0, 0.6 );
+}
+
+
+
+/* Styles for block display annotations. */
+[rel~="annotation"]:not(.inline) {
+  box-sizing: border-box;
+  display: block;
 
   margin: 5px 0px;
   padding: 10px 0px;
@@ -19,14 +41,11 @@
 
   border-top: 1px solid #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
-
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
 }
 
-[rel~="annotation"].active, [rel~="annotation"]:hover {
+/* Active/Hover styles for block display annotations. */
+[rel~="annotation"].active:not(.inline),
+[rel~="annotation"]:hover:not(.inline) {
   border-top: 1px solid #C9C9C9;
   border-bottom: 1px solid #C9C9C9;
 
@@ -34,18 +53,18 @@
   border-right: 5px solid #C9C9C9;
 }
 
-/*
- * Enable this code block for simple inline text highlighting.
- */
-
-/*
-[rel~="annotation"] {
-  background-color: #FFFF00;
-  cursor: pointer;
-}
-*/
 
 
+/* Styles for inline-only annotations. */
+[rel~="annotation"].inline { }
+
+/* Active/Hover styles for inline-only annotations. */
+[rel~="annotation"].inline.active,
+[rel~="annotation"].inline:hover { }
+
+
+
+/* Popover styling. */
 .popover {
   font-family: "Source Code Pro", monospace;
   max-width: 80%;
