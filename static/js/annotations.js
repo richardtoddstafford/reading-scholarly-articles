@@ -11,14 +11,14 @@ function getAnnotations( field ) {
    */
 
   $.getJSON(
-    "annotations.json",
+    field,
     function( data ) {
       // Read in the dictionary of annotations from a central JSON
       // dictionary.
       console.log( "Successfully read in JSON annotations." );
 
       // Grab only the annotations for this specific field.
-      var annotations = data[field];
+      var annotations = data['annotations'];
 
       // Verify that the field name was valid and annotations were found.
       if( ! annotations ) {
@@ -27,7 +27,7 @@ function getAnnotations( field ) {
         return;
       }
 
-      console.log( "Found '" + field + "' in JSON dictionary." );
+      console.log( "Found valid annotations in JSON dictionary." );
 
       // Loop over each annotation found and set its trigger's alt text as
       // well as define the popover for it.

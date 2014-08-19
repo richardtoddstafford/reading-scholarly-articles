@@ -9,11 +9,11 @@ echo "Cleaning build directory."
 clean.sh
 mkdir -p tmp
 mkdir -p webroot
+mkdir -p webroot/json
 
 
 echo "Copying static files into webroot."
 cp -r static webroot/
-cp -r annotations.json webroot/
 
 echo "Building articles."
 for article in pages/articles/*
@@ -27,12 +27,14 @@ do
   ARTICLE_FILE="pages/articles/$ID/article"
   OVERVIEW_FILE="pages/articles/$ID/overview"
   COPYRIGHT_FILE="pages/articles/$ID/copyright"
+  ANNOTATIONS_FILE="pages/articles/$ID/annotations.json"
 
   echo "  Checking file presence."
   if [ ! -f $TITLE_FILE ]; then echo "No file $TITLE_FILE found.  Exiting."; exit; fi
   if [ ! -f $OVERVIEW_FILE ]; then echo "No file $OVERVIEW_FILE found.  Exiting."; exit; fi
   if [ ! -f $ARTICLE_FILE ]; then echo "No file $ARTICLE_FILE found.  Exiting."; exit; fi
   if [ ! -f $COPYRIGHT_FILE ]; then echo "No file $COPYRIGHT_FILE found.  Exiting."; exit; fi
+  if [ ! -f $ANNOTATIONS_FILE ]; then echo "No file $ANNOTATIONS_FILE found.  Exiting."; exit; fi
 
   echo "  Reading data."
   TITLE=$( cat $TITLE_FILE )
@@ -55,6 +57,7 @@ do
 
   echo "  Moving into webroot."
   mv "tmp/$ID.html" webroot/
+  cp $ANNOTATIONS_FILE "webroot/json/$ID.json"
 
   ASSETS="pages/articles/$ID/assets"
   if [ -e $ASSETS ]
