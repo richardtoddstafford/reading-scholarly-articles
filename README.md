@@ -134,7 +134,7 @@ Copy this sample Section block of code
 
 and begin filling in text within the `<p></p>` blocks.
 
-#### Adding a figure
+##### Adding a figure
 
 To add a figure with a caption, simply use the template code:
 
@@ -148,11 +148,7 @@ and place it in your section. Graphical assets for a field (including
 figures and equations) should be stored in the folder
 `pages/articles/newfield/assets`.
 
-#### Adding New Popover Annotations
-
-Popover annotations consist of two parts: the trigger and the content.
-
-##### Adding a new trigger
+##### Adding New Popover Annotations
 
 The trigger of a popover annotation is the portion of the article text that
 will become interactive. To mark a portion of the HTML article as
