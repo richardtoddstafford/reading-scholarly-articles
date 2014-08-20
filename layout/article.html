@@ -3,12 +3,12 @@
 
     <ul class="nav nav-pills arov center">
       <li class="active">
-        <a role="tab" data-toggle="tab" href="#overview"
-        tab-index="16">Overview</a>
+        <a role="tab" data-toggle="tab" href="#article"
+        tab-index="16">Sample Article</a>
       </li>
       <li>
-        <a role="tab" data-toggle="tab" href="#article"
-        tab-index="17">Sample Article</a>
+        <a role="tab" data-toggle="tab" href="#overview"
+        tab-index="17">Field Overview</a>
       </li>
     </ul>
 
@@ -21,13 +21,7 @@
 
     <div class="tab-content">
 
-      <div class="tab-pane fade in active" id="overview">
-
-        {{ OVERVIEW }}
-
-      </div>
-
-      <div class="tab-pane fade" id="article">
+      <div class="tab-pane fade in active" id="article">
         <div class="panel panel-primary article">
           <div class="panel-heading text-center">
           </div>
@@ -44,6 +38,12 @@
 
           </div>
         </div>
+      </div>
+
+      <div class="tab-pane fade" id="overview">
+
+        {{ OVERVIEW }}
+
       </div>
 
     </div>
