@@ -9,8 +9,16 @@
 [rel~="annotation"] {
   cursor: pointer;
   text-decoration: none;
+  box-sizing: border-box;
 
   background-color: rgba( 255, 255, 0, 0.2 );
+
+  border-radius: 20px;
+  border-left: 5px solid #EBEBEB;
+  border-right: 5px solid #EBEBEB;
+
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
 
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -23,29 +31,7 @@
 [rel~="annotation"].active,
 [rel~="annotation"]:hover {
   background-color: rgba( 255, 255, 0, 0.6 );
-}
 
-
-
-/* Styles for block display annotations. */
-[rel~="annotation"]:not(.inline) {
-  box-sizing: border-box;
-  display: block;
-
-  margin: 5px 0px;
-  padding: 10px 0px;
-
-  border-radius: 20px;
-  border-left: 5px solid #EBEBEB;
-  border-right: 5px solid #EBEBEB;
-
-  border-top: 1px solid #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
-}
-
-/* Active/Hover styles for block display annotations. */
-[rel~="annotation"].active:not(.inline),
-[rel~="annotation"]:hover:not(.inline) {
   border-top: 1px solid #C9C9C9;
   border-bottom: 1px solid #C9C9C9;
 
@@ -55,8 +41,27 @@
 
 
 
+/* Styles for block display annotations. */
+[rel~="annotation"]:not(.inline) {
+  display: block;
+  margin: 5px 0px;
+  padding: 10px 0px;
+
+}
+
+/* Active/Hover styles for block display annotations. */
+[rel~="annotation"].active:not(.inline),
+[rel~="annotation"]:hover:not(.inline) { }
+
+
+
 /* Styles for inline-only annotations. */
-[rel~="annotation"].inline { }
+[rel~="annotation"].inline {
+  display: inline-block;
+  margin: 3px 3px;
+  padding: 5px 10px;
+
+}
 
 /* Active/Hover styles for inline-only annotations. */
 [rel~="annotation"].inline.active,
