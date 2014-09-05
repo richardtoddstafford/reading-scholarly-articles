@@ -1,7 +1,77 @@
 {"annotations": [
   {
-    "id": "#sample",
-    "title": "Sample",
-    "string": "This is a sample."
+    "id": "#title",
+    "title": "Article Title",
+    "string": "Title is usually an attempt to be creatively descriptive of the content to follow. They vary. Occasionally they have an ironic twist. For instance, in this paper, the title establishes a connection between commerce and religion, which are concepts we often think about in isolation. Many titles are simply descriptive of the main theme of the article. For instance, in this paper, the subtitle merely explains the content of the paper. This facilitates locating the article in databases and search tools."
+  },
+  {
+    "id": "#metadata",
+    "title": "Journal Title, Volume, Issue, etc.",
+    "string": "The journal title is usually descriptive of the purpose of the publication. The volume typically corresponds to a year of publishing by the serial title and the issues are the individual periodic publications that consist of several features. Features usually include Articles, which comprise the peer reviewed portion of the journal, as well as Book Reviews and a Editor’s Page. Typically volume 1 of a joruanl title corresponds with the first year of publication. The JER began in 1981 and is published quarterly, so in 2013, when the example article was published, JER was in volume 33."
+  },
+  {
+    "id": "#publisher",
+    "title": "Publishing or Sponsoring Organization",
+    "string": "Society for Historians of the Early Republic is the sponsoring organization. SHEAR founded in 1977. It is a good idea to find out about the publishing or sponsoring organization.  You may do this by googling the organization or by looking in the Encyclopedia of Associations. For instance, it might be useful to know that the SHEAR mission statement is: Established in 1977, the Society for Historians of the Early American Republic (SHEAR) is an association of scholars dedicated to exploring the events and the meaning of United States history between 1776 and 1861. SHEAR’s mission is to foster the study of the early republican period among professional historians, students, and the general public. It upholds the highest intellectual standards of the historical profession and encourages the broad diffusion of historical insights through all appropriate channels, including schools, museums, libraries, electronic media, public programming, archives, and publications. SHEAR cherishes a democratic ethos in scholarship and cultivates close, respectful, and productive exchanges between serious scholars at every level of experience and recognition. SHEAR membership is open to all; most members are professional historians employed in colleges, universities, museums, and historical parks and agencies, as well as independent scholars and graduate students."
+  },
+  {
+    "id": "#author",
+    "title": "Author's Institutional Affiliation",
+    "string": "Historians usually produce single authored pieces. Michael Verney is a graduate student at the University of New Hampshire."
+  },
+  {
+    "id": "#abstract",
+    "title": "Abstract / Summary",
+    "string": "Many historical journals do not include abstracts or summaries; however, databases and search tools like ProjectMuse, American History and Life, and Historical Abstracts often provide summaries of articles. While there is no specific standard that is universal to historical scholarship, abstracts and summaries tend to describe what an article is about and, with the occasional exception of the abstracts in American History and Life, the generally do not talk about their source pool.  Keep in mind that the abstracts in these databases are not generally written by the authors of the articles.   According to Project Muse, the example paper may be summarized as follows: Between Independence and the late 1830s, Americans' perception of India changed dramatically. Such a shift was due to the transition from merchant-mariners to missionaries as the predominant professions to visit the subcontinent. From the Treaty of Paris to the War of 1812, American trade with India boomed as Philadelphia, Boston, and Salem merchants rode the winds of neutral trade to windfall profits. Largely forbidden from trading with the houses of the East India Company, however, American businessmen had to look elsewhere for trading partners. They found them in the well-educated native Indian merchants called banians in Calcutta and dubashes in Madras. Since their success in India was predicated on the quality of their commercial relationships with native Indian merchants, American captains and supercargoes had every reason to overcome cultural differences. While early national American merchants varied in their ability to drop prejudices, many of the most successful India traders forged remarkably respectful, fair, and even friendly relationships with their indigenous counterparts. The profitability of the America India trade dropped precipitously after Congress passed new tariff legislation in 1816. By then, a new, more evangelically minded generation of Americans had begun to land in Anglo-Indian ports. The rise of American missionary labor in the subcontinent resulted in a very different image of native Indians and their civilization. Unlike merchants, missionaries had every reason to exploit cultural and religious differences, both for publicity and for reasons of funding. Their writings and publications had a profound effect on the way in which ordinary Americans thought of themselves, of non-Christian peoples, and of their destiny as a people."
+  },
+  {
+    "id": "#keywords",
+    "title": "Keywords",
+    "string": "These are subject terms that describe the article, but in the discipline of History, they are generally provided by the database provider, not by the author or the Journal’s editors. Occasionally these terms are a standardized controlled vocabulary, but the terms chosen usually depends on the database provider. Often when these are used within a database a researcher can choose those terms to find similar content available in the database that they are using."
+  },
+  {
+    "id": "#claim",
+    "title": "Claim",
+    "string": "There are several key ideas in this article. One is that the unfettered commercial relationships between American Merchants and Indian traders encouraged relatively good relationships but this changed after the passing of Tarrif legislation and with the introduction of evangelical missionaries who focused on the need to improve Indian civilization using the teachings from Christianity. You will see these themes developed throughout the rest of the paper."
+  },
+  {
+    "id": "#researchmethod",
+    "title": "Research Method",
+    "string": "While previous historians have tended to consider commerce and religion in isolation, Verney’s method involves surveying the secondary literature and examining some primary literature that enables him to see the issues more holistically."
+  },
+  {
+    "id": "#litreview",
+    "title": "Literature Review",
+    "string": "In most historical literature, the use of secondary evidence is weaved into the prose. The first section of the article provides a methodological framework and positions the author’s work within the field."
+  },
+  {
+    "id": "#theory",
+    "title": "Theory, model, paradigm",
+    "string": "This article explores ways to connect previously unconnected historical literature."
+  },
+  {
+    "id": "#primaryevidence",
+    "title": "Handling of primary evidence",
+    "string": "The work of a historian involves locating primary evidence that documents the period under study. In this paper, Verney makes considerable use of the Crowinshield Family Papers to document his claims."
+  },
+  {
+    "id": "#secondaryevidence",
+    "title": "Handling of primary evidence",
+    "string": "This author occasionally uses primary sources that are cited in secondary sources, for instance here, essential evidence for his argument is drawn from another scholar’s work. "
+  },
+  {
+    "id": "#conclusions",
+    "title": "Inferences from evidence",
+    "string": "In between, the change Americans began to change their own perceptions about themselves and their role in the world. Generally speaking, historians seek to create coherent narratives which explain and account for the primary evidence they locate; to do this, they have to make inferences based on the state of the scholarly knowledge in the already published secondary literature and on what their pools of primary sources are able to show."
+  },
+  {
+    "id": "#bibliography",
+    "title": "Bibliography",
+    "string": "Uses footnotes for citations.  Pay particular attention to the sources being used. This source relies heavily on the Crowinshield Family Papers housed in Salem, MA. It also uses a plethora of secondary sources. It follows the citation standards outlined in the Chicago Manual of Style."
+  },
+  {
+    "id": "#acknowledgements",
+    "title": "Acknowledgements / Conflict of Interest Statement / Funding Statement",
+    "string": "The author will occasionally acknowledge assistance given by mentors and peers. Acknowledgements of mentors, peers, and colleagues is common in this journal, but are not included in all historical journals. The Acknowledgements section can help you put a scholar’s work in context, by helping you understand who else might be considering overlapping questions, using similar methods, or examining the same historical period, territory, or topic.  When research is funded, authors often report the sources of their funding in the acknowledgements section."
   }
 ]}
