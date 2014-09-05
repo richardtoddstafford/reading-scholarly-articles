@@ -5,6 +5,11 @@
     "string": "This paper is a Public Access paper, also known as an Open Acess paper. These terms mean that anyone with access to the Internet will have free access to this article. Readers will not have to go to a library to find it. Because this research was funded by the National Institutes for Health (NIH), it must be made available as a public access paper within a certain time after publication in a journal."
   },
   {
+    "id": "#title",
+    "title": "Title",
+    "string": "The journal title (or name) usually is fairly short and describes the topic or discipline of the journal.  This paper was published in the <em>Journal of Neuroscience Methods</em>. Based on the title, it seems this journal is a neuroscience journal with a somewhat practical aspect—it publishes papers related to the methods used in neuroscience. Looking at the journal’s scope and purpose on the publisher’s website, however, reveals that the articles published are on methods for neuroscience research, which is more specific than the above interpretation."
+  },
+  {
     "id": "#authors",
     "title": "Author Institution Information",
     "string": "It is common practice to list the institutional affiliation the authors of a scholarly article in engineering articles. This information may be found with the author name or in a note at either the bottom of the first page of the article or at the end of the article. One of the authors of this paper is designated a corresponding author (marked by a *). This author will handle all the questions and contact from readers and his contact information is at the bottom of the page."
