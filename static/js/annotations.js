@@ -47,6 +47,7 @@ function getAnnotations( field ) {
 
             // Define the popover for this annotation.
             trigger.popover({
+              html:      true,
               toggle:    "popover",
               trigger:   "click",
               placement: "auto",
