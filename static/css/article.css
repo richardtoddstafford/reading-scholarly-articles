@@ -88,3 +88,8 @@ blockquote {
   text-indent: -20px;
   margin-left: 20px;
 }
+
+.article .panel-body {
+  padding-left: 25px;
+  padding-right: 25px;
+}

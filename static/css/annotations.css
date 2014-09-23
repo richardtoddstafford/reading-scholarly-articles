@@ -44,10 +44,16 @@
 /* Styles for block display annotations. */
 [rel~="annotation"]:not(.inline) {
   display: block;
-  margin: 5px 0px;
-  padding: 10px 0px;
+  margin: 5px -15px;
+  padding: 10px 10px;
 
 }
+
+[rel~="annotation"]:not(.inline) > * {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 
 /* Active/Hover styles for block display annotations. */
 [rel~="annotation"].active:not(.inline),
