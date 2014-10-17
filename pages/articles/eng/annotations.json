@@ -1,0 +1,62 @@
+{"annotations": [
+  {
+    "id": "#publicaccess",
+    "title": "Public Access",
+    "string": "This paper is a Public Access paper, also known as an Open Acess paper. These terms mean that anyone with access to the Internet will have free access to this article. Readers will not have to go to a library to find it. Because this research was funded by the National Institutes for Health (NIH), it must be made available as a public access paper within a certain time after publication in a journal."
+  },
+  {
+    "id": "#title",
+    "title": "Title",
+    "string": "The journal title (or name) usually is fairly short and describes the topic or discipline of the journal.  This paper was published in the <em>Journal of Neuroscience Methods</em>. Based on the title, it seems this journal is a neuroscience journal with a somewhat practical aspect—it publishes papers related to the methods used in neuroscience. Looking at the journal’s scope and purpose on the publisher’s website, however, reveals that the articles published are on methods for neuroscience research, which is more specific than the above interpretation."
+  },
+  {
+    "id": "#authors",
+    "title": "Author Institution Information",
+    "string": "It is common practice to list the institutional affiliation the authors of a scholarly article in engineering articles. This information may be found with the author name or in a note at either the bottom of the first page of the article or at the end of the article. One of the authors of this paper is designated a corresponding author (marked by a *). This author will handle all the questions and contact from readers and his contact information is at the bottom of the page."
+  },
+  {
+    "id": "#abstract",
+    "title": "Abstract",
+    "string": "Abstracts are brief summaries of research papers and provide information on what the researchers investigated, the methods and research techniques they used, and the results of the research. In journal articles, the abstract is usually written by the authors after the paper is finished. They are a standard feature of scholarly articles written by bioengineers, regardless of whether the article is published in an engineering journal or a medical journal. Bioengineering researchers will find it very helpful to read the abstract because it will help them determine the relevancy of the article to their projects without having to read the whole article."
+  },
+  {
+    "id": "#keywords",
+    "title": "Keywords",
+    "string": "Keywords help define the topic of the paper for the reader. These keywords are author supplied and are required by this journal; authors are limited to 6 keywords total. Reviewing the abstract and the keywords together often provides readers with enough information to determine how relevant a paper is to their research. \"Index\" or \"subject\" terms may also be included with a paper, but usually they will be seen in the online database information about a paper. Engineering and medicine have very well defined index and subject terms, and this helps researchers to create very focused searches and judge the relevancy of the articles found."
+  },
+  {
+    "id": "#questions",
+    "title": "Research Questions",
+    "string": "Research questions may or may not be stated explicitly in a research paper. In this paper, the researchers provide this information in the Introduction section, which is generally the usual practice. Essentially, these researchers are trying to find out if adding accelerometer measurements to EEG data will improve their ability to determine the state of vigilance (wakefulness) in their test subjects. Currently, EEG data and researcher observations are used."
+  },
+  {
+    "id": "#methods",
+    "title": "Methods",
+    "string": "The methods section describes in detail the methods, techniques and equipment used in gathering the data. Figures showing equipment, experimental set-up, etc. are included at the end of the article. In bioengineering, animals (rats in this case) will be used in early experiments. As the research progresses, human subjects may be used in the final research stages to determine how useful the technique or equipment under review is. When human subjects are used, permission for testing must be obtained from both the subjects and an institutional research review board. This is done to ensure that the research is conducted safely and in an ethical manner and data about the subjects are kept confidential. In bioengineering, large scale clinical trials may be required. In the case of something like a medical instrument, or implant, final approval from the Food & Drug Administration (FDA) is required before the invention can be marketed."
+  },
+  {
+    "id": "#results",
+    "title": "Results",
+    "string": "The results section discusses the findings of the experiments conducted. In this article, there are several tables containing the data and figures that illustrate the results of the experiments. These can be very useful in understanding the text of the article."
+  },
+  {
+    "id": "#discussion",
+    "title": "Discussion",
+    "string": "In this section, the authors discuss their results, if they answer, prove, or disporve their original hypothesis (research question), changes they might make to improve the experiments in the future, and suggestions for further research. They also may discuss the implications of the research and how it could be used."
+  },
+  {
+    "id": "#conclusion",
+    "title": "Conslusion",
+    "string": "The conclusion is a very brief recap of the overall success of the research project. In this article, the authors indicated that the research was successful. They also provide a brief statement about how research could be used in treating seizures."
+  },
+  {
+    "id": "#references",
+    "title": "References",
+    "string": "The references for this paper are interesting in that they are predominantly research journal articles (about 15% are books). This may be because bioengineering research depends on medical research and journal articles are one of the main ways used to communicate medical research results. They books that are included may be seminal works in this area. The citaiton style is the AMA style. The author guidelines for this journal do not specify a specific style, but request that authors pick a style and use it consistently. Notice that the references are in alphabetical order and the journal titles are abbreviated. This was always done when journals were printed because it saves space, but it is disappearing in electronic journals because space is not an issue. The numbers in the square brackets are each paper's unique ID number (also called \"Accession Number\") for the PubMed database. These numbers could have been added by either the publisher or the authors of this paper. References without these numbers are not included in the PubMed database."
+  },
+  {
+    "id": "#acknowledgements",
+    "title": "Acknowledgements",
+    "string": "This section is not found in all scholarly papers. In it, authors usually thank other researchers for their help or, as in this case, acknowledge the source of the research grants received to support the research."
+  }
+]}

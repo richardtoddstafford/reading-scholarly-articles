@@ -1,0 +1,62 @@
+{"annotations": [
+  {
+    "id": "#article",
+    "title": "Article Structure",
+    "string": "This scholarly work follows a very typical structure found in computer science and IT papers. The sections of this paper are: the abstract (summary), introduction, background and related work (literature review), systems architecture (methodology/experimental design), results, conclusion and bibliography. The length and titles of these sections may vary depending on the resesarch project, but they are the standard sections found in computer science and IT research papers."
+  },
+  {
+    "id": "#title",
+    "title": "Title",
+    "string": "The title of a scholarly research paper usually provides clues about the research described in the paper. A good title is important because it will describe the content briefly as well as make the paper memorable."
+  },
+  {
+    "id": "#authors",
+    "title": "Author Institute Information",
+    "string": "Listing the institutional affiliation and contact information of the author(s) is a common feature in scholarly works. Generally, this information is found with the author name or in a note at either the bottom of the first page of the article or the end of the article. If there are multiple authors, one may be designated to handle questions and contact and is frequently called the \"corresponding author.\""
+  },
+  {
+    "id": "#abstract",
+    "title": "Abstract",
+    "string": "Abstracts written by the authors are found in virtually all scholarly research papers and conference papers in computer science and IT. The abstract is a very brief summary of the article and provides information on what the researchers investigated, the methods and research techniques they used, and the results of the research. Computer science researchers will find it very helpful to read the abstract because it will help them determine the relevancy of the article to their projects without having to read the whole article."
+  },
+  {
+    "id": "#research-questions",
+    "title": "Research Questions",
+    "string": "The research questions descrie what the researchers are trying to learn through their research project. Frequently, the research questions are explicitly stated in the Introduction. Other times, they are woven into the introduction and must be discerned by the reader, as in this paper. From reading this introduction, the research questions seem to be: 1) What is the effect of geographic difference on application performance? and 2) What are the effects of network performance on application usability?"
+  },
+  {
+    "id": "#keywords",
+    "title": "Keywords",
+    "string": "In many computer science and IT journals, author supplied keywords are an important indicator of the topic of the paper. In this paper, no keywords have been supplied by the authors. Often, reviewing the abstract and the keywords together can provide enough information to judge if a paper is relevant to your research. Published papers may also have \"Index\" or \"Subject\" terms included by the publisher which further help the reader decide if the paper is relevant."
+  },
+  {
+    "id": "#lit-review",
+    "title": "Literature Review",
+    "string": "In this paper, the literature review is called \"Background and Related Work\". This is an important section of any scholarly journal paper because it provides the reader with information about the previous research upon which the current research is based. Information in this section will usually provide the salient points from previously published, selected papers that are relevant to the current project. Thus, it is very important that readers pay close attention to this section because it will provide the theoretical underpinnings for the current research project. Information on the types of data to be collected is provided here. This section may also discuss methods used in past research and their applicability to the current project, which these authors have done. Note that the citation style in this paper is very different than what is seen in the humanities or social sciences. Computer Science and IT papers frequently use in-text citations that use only the number of the reference in the bibliography listing."
+  },
+  {
+    "id": "#system-architecture",
+    "title": "System Architecture",
+    "string": "The System Architecture section is essentially the Methodology section and outlines, at a high level, the experimental design: the architecture of the system used, the types of data collected, and how it was collected. Depending on the research topic, the methodology section may contain flow and/or graphical diagrams of a process, circuit diagrams, mathematical formulas, etc. The process diagrams will show the relationship among the different parts of the experiment and can help readers better understand the research. The System Architecture section does not go into as much detail about the methodology as other research papers do, however, probably because its purpose is only to explain the overall system. In this paper, much of the step-by-step information about the test methods is found in the Results section."
+  },
+  {
+    "id": "#results",
+    "title": "Results",
+    "string": "The Results section usually only discusses the results from the experimental tests. This paper is different in that it includes an in-depth discussion of the data-collection methods used. The Results section may contain tables, graphs, or diagrams showing the results of the experiments or tests run."
+  },
+  {
+    "id": "#future-work",
+    "title": "Future Work",
+    "string": "No experiment is perfect and new questions arise during the research process that can't be answered using the data collected. Researchers will generally take this kind of information and suggest future research that could be pursued. If the authors decide to expand their project to do this research, they will indicate that these are their plans for future research. Other researchers may not want or be able to do the future work they are proposing, so others may use this section to get ideas for research projects. This information is frequently found in research papers in computer science and IT, but where it appears may vary. If a separate section is not created, other logical places for it are the results and conclusion sections."
+  },
+  {
+    "id": "#conclusion",
+    "title": "Conclusion",
+    "string": "The Conclusion section sums up the results of the experiment and provides the reader with the implications of the results. The research questions may be reiterated in this section and the author may address how successful the research was at answering these questions. In this paper, this information is in the results section."
+  },
+  {
+    "id": "#references",
+    "title": "References",
+    "string": "The References are an interesting seciton because they provide a glimpse of the types of research literature published and used by computer science and IT researchers. A quick look at the references to this paper show that 80% are NOT journal articles. Instead, they are papers written for presentation at a conference or workshop. Not surprisingly, most of them are from IEEE or ACM association conferences. This is very typical of computer science and IT research papers. These fields evolve very quickly, so the conference proceedings and transactions are an important source of the most recent research findings to researchers. Conference papers may be peer reviewed (even double-blind), but the review may not be quite as rigorous as the peer review process used for journal papers because there is a shorter time period in which to do the review. The citation style used herein is common in computer science and IT. Instead of alphabetical listing by author, references are listed in the order in which they are cited in the paper and assigned numbers. When citing, the number is used in the text instead of the author's name. One thing to note is that papers are not listed if they are not cited. Page numbers are not used for in-text citations; only the number from the reference list is used. A common style used for citations in these disciplines is the IEEE style. This style was developed for use in IEEE journals and many others have adopted it. It has some similarities to APA style, but many differences. One thing to notice in the above is that the journal name (see #7) is abbreviated. This was always done when journals were printed because it saves space, but it is disappearing in electronic journals because space is not an issue."
+  }
+]}

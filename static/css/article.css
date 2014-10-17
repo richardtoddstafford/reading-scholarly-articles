@@ -1,0 +1,95 @@
+/* Set article defaults. */
+.article {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: justify;
+
+  /*
+  overflow-y: scroll;
+  height: 500px;
+  */
+}
+
+
+/* Set text-alignments. */
+.article h1,
+.article h2,
+.article .caption,
+.center { text-align: center; }
+
+.right { text-align: right; }
+
+.left { text-align: justify; }
+
+
+/* Set heading sizes. */
+.article h1 { font-size: 2.5em; }
+.article h2 { font-size: 1.5em; }
+.article h3 { font-size: 1.15em; }
+.article h4 { font-size: 1em; }
+
+
+/* Set font families. */
+.article h1,
+.article h2,
+.article .serif { font-family: "Merriweather", serif; }
+
+.article h3,
+.article h4,
+.article .sans { font-family: "Lato", sans-serif; }
+
+.article .mono { font-family: "Source Code Pro", monospace; }
+
+
+/* Set font styles. */
+.article h1
+.article h2,
+.article h3,
+.article h4,
+.article .bold { font-weight: bold; }
+.article .italic { font-style: italic; }
+.article .uppercase { text-transform: uppercase; }
+
+
+/* Set indentation. */
+.article p { text-indent: 15px; }
+.article p.noindent { text-indent: 0px; }
+
+
+/* Define article components. */
+.article .caption { font-size: 0.9em; }
+.article .section-space { height: 20px; }
+
+.article .figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article .equation {
+  height: 35px;
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+blockquote {
+  font-size: 1em;
+  border: 0px;
+}
+
+
+.article-copyright {
+  text-indent: -20px;
+  margin-left: 20px;
+}
+
+.article .panel-body {
+  padding-left: 25px;
+  padding-right: 25px;
+}

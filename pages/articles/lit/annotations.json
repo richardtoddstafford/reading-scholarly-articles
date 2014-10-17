@@ -1,0 +1,72 @@
+{"annotations": [
+  {
+    "id": "#title",
+    "title": "Article Title",
+    "string": "Literary studies article titles tend to be less explicitly detailed than article titles in the sciences. Most will generally give some idea of the topic (or at least of the literary work(s) and/or authors being discussed, i.e. “early Colonial promotional literature”). Many article titles include jokes, puns, irony, or references to popular or literary culture."
+  },
+  {
+    "id": "#metadata",
+    "title": "Journal Title, Volume, Issue, etc.",
+    "string": "Volumes may or may not be assigned by years. This is generally the case, but it can vary from journal to journal. In this case, this article appeared in the 71st year of American Literature, which is Volume 71. Journal or “issue” numbers tend to occur monthly and/or quarterly, depending on how often the journal is published. Dates may or may not be used, but the year of publication is important when you try to put an article into historical context or try to understand where it fits in a scholarly conversation."
+  },
+  {
+    "id": "#publisher",
+    "title": "Publishing or Sponsoring Organization",
+    "string": "Academic journals are often published by a professional organization and/or scholarly press affiliated with an academic institution. The journal “American Literature” is published by Duke University Press; it is also affiliated with the American Literature Section of the Modern Language Association. You may have to look at the masthead of the printed journal volume or consult the journal’s web site to find this kind of information."
+  },
+  {
+    "id": "#authors",
+    "title": "Author's Institutional Information",
+    "string": "Although there are some so-called “independent” humanities scholars who may not have institutional affiliations, institutional affiliations do tend to bolster scholars’ credibility. Some academic institutions may even specialize in a given type of literary studies."
+  },
+  {
+    "id": "#abstract",
+    "title": "Abstract / Summary",
+    "string": "No abstract is provided for this article. That is not uncommon for literary studies. If you see an abstract provided in a database listing/citation, but not in the article itself, that abstract was probably not written by the author."
+  },
+  {
+    "id": "#keywords",
+    "title": "Keywords",
+    "string": "No keywords are given, which again is not uncommon for literary criticism. However, databases that index this article may provide subject terms which do not come from the author."
+  },
+  {
+    "id": "#question",
+    "title": "Research Question, Hypothesis, Stance, Claim, etc.",
+    "string": "It is not uncommon for the stances of literary criticism articles to be at least a couple of sentences long and to come after a couple of paragraphs of introductory material (i.e. you will not necessarily find a thesis at the end of the first paragraph). The stance, claim, or question frames the main ideas around which the article is organized, but there may at times be tangents or sub-arguments which are merely related to the main claims.  Sometimes, claims may be implicit in an article or will be spread across several paragraphs. In these cases, it is often helpful to try to summarize the argument rather than locating a place where the author explicitly states a claim."
+  },
+  {
+    "id": "#method",
+    "title": "Research Method",
+    "string": "Literary Studies scholarship does not always explicitly discuss research methods. Even so, the author of this article indicates that he will be working with historical “promotional literature” to discuss “economic theorizing” in the early colonial historical period. Literary scholars often work with historical, primary sources as well as concepts from other disciplines such as Economics, Such methods are often used by literary scholars working in non-contemporary literary periods. "
+  },
+  {
+    "id": "#litreview",
+    "title": "Literature Review",
+    "string": "After stating his \"research stance,\" Sweet explains that other literary critics have not really done much with \"the interrelation of economy and ecology,\" but Sweet doesn’t really go into detail within the body of the paper, with the exception of end note 7. Depending on how \"new\" a given topic is, literary articles may or may not include a lengthy literature review under a separate section heading. Other articles may interweave the literature review with the unfolding argument."
+  },
+  {
+    "id": "#theory",
+    "title": "Theory, model, paradigm",
+    "string": "Sweet is primarily looks at colonialist theories as evidenced in promotional literature for colonial ventures in the New World and More’s Utopia, exploring how they drew on both economic and ecological ideas (i.e. the role of the environment of the New World in English economic development). More specifically, Sweet argues that many of these colonialist theories came under “steady-state or sustainable economic theory” . Sweet’s main argument is that this steady-state theory drew on both economic and ecological ideas, but that later colonialist discourse shifted toward a more purely economic vein. Sweet suggests that the more holistic sixteenth and seventeenth colonialist discourse could be a model for- or approach to- reintegrating ecology into economic discourse. Sweet’s work can be placed more broadly within “ecocriticism,” a school of criticism that investigates the relationships between  literature and other related subject areas and the environment. To learn more about “ecocriticism,” <a href=\"http://litguide.press.jhu.edu/cgi-bin/view.cgi?eid=84\">look at the entry in the Johns Hopkins 400, third partial paragraph</a>."
+  },
+  {
+    "id": "#primaryevidence",
+    "title": "Handling of primary evidence",
+    "string": " Sweet uses critical analysis of specific texts such as More’s <i>Utopia</i> to make larger arguments about various “theories” of colonization and economic development occurring in sixteenth and seventeenth century English discourse. One specific example is Sweet’s explication of Richard Hakluyt’s use of the word “waste” in his 1584 “Inducements to the Liking of the Voyage intended towards Virginia. Sweet uses evidence of historical usage from the Oxford English Dictionary to argue a given interpretation that serves his larger arguments. <a href=\"http://www.oed.com/view/Entry/226027?rskey=uQ3CTi&result=1#eid\">You can use the Oxford English Dictionary to explore this term</a>. The meaning Sweet is referring to take some scrolling down to get to: - “Offscourings, dregs, worthless people. “, but looking at the other entries for this term may help you put it in context and better understand how Sweet is using this source. "
+  },
+  {
+    "id": "#conclusion",
+    "title": "Inferences from Evidence, Conclusions, Findings",
+    "string": "These mainly occur in the last few pages in many literary studies articles. Many literary studies articles have conclusions are at least a few pages long, depending on the overall length of the article. Sweet takes his specific arguments on English colonial promotional literature and expands them, explaining how they might be applied to other literature in the time period, the larger discourse of ecocriticism itself, and finally, to a more contemporary example, West Virginia mountaintop removal mining. This general structure of Sweet’s argument is not unusual for literary criticism: he moves from the general to the specific in his introduction, then develops textual arguments based on specific texts in the body of his article, and then moves from the specific back to the more general in his conclusion."
+  },
+  {
+    "id": "#bibliography",
+    "title": "Bibliography, references, works cited",
+    "string": "In this article, references are given in a “Notes” section at the end: there is no separate “bibliography” or “works cited” list. Depending on individual journal publication policies, articles in literary criticism may include notes and/or bibliographies and works cited. Notes allow literary scholars to provide more context and discussion of their sources without sidetracking their main article. Some scholars may also use notes to mention related ideas that more tangential to their larger arguments.\n\nMany literary critics use MLA formatting style, but individual journals may have their own “in house” style that they require article authors to use."
+  },
+  {
+    "id": "#acknowledgements",
+    "title": "Acknowledgements",
+    "string": "None are given, which is not unusual for literary studies (few literary scholars receive outside funding outside of their academic institution or are likely to have a conflict of interest). However, literary scholars who receive fellowships and other support that helped their work on a specific article will often acknowledge that; they may also thank colleagues for editing and other assistance. Articles that were originally given as conference papers or invited lectures are often identified."
+  }
+]}

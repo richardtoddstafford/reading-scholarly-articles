@@ -1,0 +1,6 @@
+Reproduced from the NIH Public Access author manuscript with the permission
+of Nathalia Peixoto: Sunderam, Sridhar, Nich Chernyy, Nathalia Peixoto,
+Johnathan Mason, Steven Weinstein, Steven Schiff, and Bruce Gluckman.
+"Improved sleep-wake and behavior discrimination using MEMS
+accelerometers." <em>Journal of Neuroscientific Methods</em> 163:2 (2007):
+373-383.

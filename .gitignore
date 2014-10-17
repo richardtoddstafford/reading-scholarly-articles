@@ -1,1 +1,3 @@
 *.swp
+webroot
+__pycache__
