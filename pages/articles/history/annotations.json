@@ -1,0 +1,52 @@
+{"annotations": [
+	{
+		"id": "#title",
+		"title": "Article Title",
+		"string": "In historical literature, the title is usually an attempt to be creatively descriptive of the content to follow. They vary. Occasionally they have an ironic twist. For instance, in this paper, the title establishes a connection between commerce and religion, which are concepts we often think about in isolation. Many titles are simply descriptive of the main theme of the article. For instance, in this paper, the subtitle merely explains the content of the paper. This facilitates locating the article in databases and search tools."
+	},
+	{
+		"id": "#author",
+		"title": "Author's Name",
+		"string": "Historians usually produce single authored pieces."
+	},
+	{
+		"id": "#acknowledgements",
+		"title": "Author's Institutional Affiliation, Acknowledgements, and Funding",
+		"string": "An author's institutional affiliation can help you determine a scholar's individual level of expertise. In some cases, it can also help you determine institutional determinants which could affect the choice of a research topic or theoretical approach. The author will occasionally acknowledge assistance given by mentors and peers. Acknowledgements of mentors, peers, and colleagues is common in this journal, but are not included in all historical journals. The Acknowledgements section can help you put a scholar’s work in context, by helping you understand who else might be considering overlapping questions, using similar methods, or examining the same historical period, territory, or topic. When research is funded, authors often report the sources of their funding in the acknowledgements section."
+	},
+	{
+		"id": "#claim",
+		"title": "Claim or Thesis",
+		"string": "There are several key ideas in this article. One is that the unfettered commercial relationships between American Merchants and Indian traders encouraged relatively good relationships but this changed after the passing of Tarrif legislation and with the introduction of evangelical missionaries who focused on the need to improve Indian civilization using the teachings from Christianity. You will see these themes developed throughout the rest of the paper. Determining the central claim or thesis is essential to comprehension of the article."
+	},
+	{
+		"id": "#researchmethod",
+		"title": "Research Method",
+		"string" : "While previous historians have tended to consider commerce and religion in isolation, Verney’s method involves surveying the secondary literature and examining some primary literature that enables him to see the issues more holistically."
+	},
+	{
+		"id": "#litreview",
+		"title": "Literature Review",
+		"string" : "In most historical literature, the use of secondary evidence is weaved into the prose. The first section of the article provides a methodological framework and positions the author’s work within the field."
+	},
+	{
+		"id": "#primaryevidence",
+		"title": "Handling of primary evidence",
+		"string": "The work of a historian involves locating primary evidence that documents the period under study. In this paper, Verney makes considerable use of the Crowinshield Family Papers to document his claims."
+	},
+	{
+		"id": "#secondaryevidence",
+		"title": "Handling of secondary evidence",
+		"string": "This author occasionally uses primary sources that are cited in secondary sources, for instance here, essential evidence for his argument is drawn from another scholar’s work."
+	},
+	{
+		"id": "#conclusions",
+		"title": "Inferences from evidence",
+		"string": "In between, the change Americans began to change their own perceptions about themselves and their role in the world. Generally speaking, historians seek to create coherent narratives which explain and account for the primary evidence they locate; to do this, they have to make inferences based on the state of the scholarly knowledge in the already published secondary literature and on what their pools of primary sources are able to show."
+	},
+	{
+		"id": "#bibliography",
+		"title": "Bibliography",
+		"string": "Historians usually use footnotes for citations and pay particular attention to the sources being used. This source relies heavily on the Crowinshield Family Papers housed in Salem, MA. It also uses a plethora of secondary sources. It follows the citation standards outlined in the Chicago Manual of Style."
+	}
+]}
