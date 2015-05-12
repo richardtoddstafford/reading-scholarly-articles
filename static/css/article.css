@@ -15,8 +15,10 @@
 /* Set text-alignments. */
 .article h1,
 .article h2,
-.article .caption,
 .center { text-align: center; }
+
+.article .caption { text-align: justify; }
+
 
 .right { text-align: right; }
 

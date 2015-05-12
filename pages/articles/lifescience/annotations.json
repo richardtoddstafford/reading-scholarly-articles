@@ -1,0 +1,96 @@
+{"annotations": [
+  {
+    "id": "#title",
+    "title": "Article Title",
+    "string": "In the life sciences, article titles provide a clear summary of the article's content, including what has been discovered and what questions that the author(s) argue to have been answered."
+  },
+  {
+    "id": "#metadata",
+    "title": "Citation Information",
+    "string": "Pay attention to the information about where an article was published. For instance, journal titles may give you clues as to whether the journal is scholarly or not. For example, many scholarly journal titles contain the words Journal of, Review, or Quarterly. Although this journal title (PLoS Biology) does not contain these words, the title includes the name of its reputable open access publisher -- PLoS (Public Library of Science) and states its disciplinary focus (biology). Scholarly journals are published or sponsored by a scholarly publisher, a professional society, or a university press. PLoS currently publishes six peer-reviewed journals that feature research of significant impact. When you are unfamiliar with a publisher or sponsoring organization, you may need to conduct some research in order to determine its credibility." 
+	},
+  {
+    "id": "#authors",
+    "title": "Author's Institutional Information",
+    "string": "Scholarly articles are written by researchers who are often affiliated with a reputable institution or organization. Credible authors always name their institutional affiliations. This article has six authors, each of whom names his institutional affiliation. For example, the first author's affiliation is Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor, Michigan, United States of America. Note that the authors of this article are affiliated with different institutions which are located in different states. Multidisciplinary and multi-institutional scholarly collaboration is typical for life sciences research."
+  },
+  {
+    "id": "#abstract",
+    "title": "Abstract",
+    "string": "A typical scholarly article provides an abstract before the main text of the article. The abstract is a summary of the research project, its methodology and results, and the authors' conclusion(s). This article's abstract describes the research question (why the flu virus in humans is less diverse than that in wild birds?), the research project (the surveillance of avian influenza viruses in wild birds), methodology (statistical analyses), research results (a combination of characteristics of the host and virus explains the diversity observed), and the authors' conclusions (the key to maintaining the high levels of influenza diversity observed in wild birds is due to the combination of their short lifespan as well as the greater durability of viruses in aquatic environments)."
+  },
+  {
+  	"id": "#date",
+  	"title": "Date of Publication",
+  	"string": "Note when an article was published, revised, or updated. In the life sciences, having current sources is essential. This article was published on August 12, 2014."
+  },
+  {
+  	"id": "#oa",
+  	"title": "Copyright Information and Open Access",
+  	"string": "A articles are under copyright for a period of time after they are created; however, because this article is published in an open access journal, the full text was freely available online as soon as it was published. The Creative Commons license allows you to reuse this article in any way you see fit, so long as you provide attribution to the author and journal. PLoS has been in the center of the open access movement since 2000."
+  },
+  {
+  	"id": "#funding",
+  	"title": "Funding Statement",
+  	"string": "The funding statement indicates who paid for the research to be completed. This may be useful, as it can establish whether or not outside entities considered this research important to complete. Sometimes funders may have a vested interests in the results, so if you do not know who a funder is, you may want to google it to find out more. This information may also sometimes be listed in an acknowledgements section. Since this article has both, funding is listed here and more personal acknowledgements appear in the acknowledgements section."
+  },
+  {
+  	"id": "#introduction",
+  	"title": "Introduction",
+  	"string": "A scholarly article's introduction describes (similarly to the abstract but in a more detailed way) the main research question that the article seeks to answer and why it is important to answer this question.  This article elaborates on the specific types and subtypes of the avian flu viruses (in wild birds and in humans) and explains why this research study was important to undertake (because of the recent avian influenza viruses as pandemic threats)."
+  },
+  {
+  	"id": "#conflict",
+  	"title": "Conflict of Interest Statement",
+  	"string": "Many journals ask authors to report any financial interest in the research. This might happen because they are part owners of a company that may profit from the outcome of the research or for some other reason."
+  },
+  {
+  	"id": "#summary",
+  	"title": "Author Summary",
+  	"string": "The abstract is a summary of the article, in this case written by the publisher or editor. This journal also has authors summarize their own work. In some journals, the abstract is an author's summary and in other journals there is no author summary, just an abstract provided by the publisher or editor."
+  },
+  {
+  	"id": "#method",
+  	"title": "Research Materials and Methods",
+  	"string": "This section describes in detail the means by which they carried out their research. The materials and methods section can help explain where the evidence came from and can be an important part of unpacking the design of an article. It can take some effort to understand the relationships between a hypothesis, the research methods used to test this hypothesis, the evidence gathered using these methods, and the inferences made from that evidence in order to substantiate or falsify the hypothesis. In many cases, the goal of a methods section is to provide a description of the methods that is detailed enough that someone with appropriate knowledge could replicate the study."
+  },  
+  {
+    "id": "#results",
+    "title": "Results",
+    "string": "The main purpose of the authors of a scholarly journal article is to report on original research or experimentation in order to share discoveries, inventions, methodologies, and theories with their peers. In the life sciences, scholarly articles often report the results of empirical research that is derived from observation or experiment.  In the Results and Discussion section, the authors of this article describe the types of data they used for their study (experimental data and sequence data from GenBank) and the methods they used to conduct the study (experiments, comparison, testing, and the time series, phylogenetic and regression analyses).  They also report the results of their study that showed that the contrasting degrees of viral diversity can be explained by properties of both host and virus."
+  },
+  {
+    "id": "#litreview",
+    "title": "Literature Review",
+    "string": "A literature review section typically describes the research that has previously been done on a topic. Although this article does not include a formal literature review section, the authors provide in-text references to previous research in the area that has informed and shaped this article. "
+  },
+  {
+    "id": "#conclusion",
+    "title": "Conclusion",
+    "string": "A typical conclusion section provides a conceptual summary of the study findings.  The authors of this article (in addition to summarizing their research results), suggest the areas of study that warrant further investigation (a detailed understanding of cross-immunity and a one-dimensional strain space for the practical purpose of numerical tractability) and  explain how this study findings can have practical implications for the management of influenza in wild birds."
+  },
+  {
+    "id": "#bibliography",
+    "title": "References",
+    "string": "Credible authors always cite their sources in the form of footnotes, bibliographies, or references so that the accuracy of and support for what they've written can be verified. This article provides a lengthy list of 60 references, organized alphabetically by author's name. Note that most journal article citations contain abbreviations of the journal titles, i.e. the shortened form of a title, which is a common practice in scholarly publishing."
+  },
+  {
+    "id": "#acknowledgements",
+    "title": "Acknowledgements",
+    "string": "Many research funders make it a condition of grant that their support should be acknowledged in any resulting publication. Therefore, scholarly articles often include the Acknowledgments section in which researchers acknowledge the funding support they have received. In addition to acknowledging the funding support, the Acknowledgments section enables researchers to thank those persons who have helped in carrying out the research project (such as the provision of technical support) or provided useful comments on the project or article manuscript (as exemplified by this article). "
+  },
+  {
+  	"id": "#figures",
+  	"title": "Figures",
+  	"string": "Many scholarly articles in the life sciences include tables, charts, photographs, and other graphics that aim to support and illustrate research findings. Some articles may also include multimodal features such as video, sound, animations, and other digital multimedia effects.  For example, the Journal of Visualized Experiments incorporates video-based components (“video-articles”) in its content. This article includes five figures (tables, illustrations, and graphs). While each figure is accompanied by a caption, the additional details are also provided in the Supporting Information section."
+	},
+	{
+		"id": "#supplement",
+		"title": "Supplemental Materials",
+		"string": "Scholarly articles may include supplemental material such as endnotes, datasets, spreadsheets, audio or video files, and other additional data. Although supplemental material provides useful information that undergoes the same editorial standards as the article itself, it is not essential to understanding an article's main research results. This article provides supplemental material in the Supporting Information section which includes additional information about the article's graphics."
+	},
+	{	"id": "#contributions",
+		"title": "Author Contributions",
+		"string": "When a scholarly article has multiple authors, it may declare each author's contribution. For example, this article recognizes the following author contributions: the conception and design of the experiments, performance of the experiments, analyses of the data, contribution of the reagents/materials/analysis tools, and writing of the paper."
+	}
+]}

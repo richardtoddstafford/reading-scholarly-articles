@@ -5,9 +5,9 @@
 	</div> 
 </div> 
 
-<div class="row" rel="annotation" id="authors"> 
+<div class="row" id="institution" rel="annotation"> 
 	<hr class="visible-xs" /> 
-	<div class="col-sm-4 text-center" id="institution" rel="annotation"> 
+	<div class="col-sm-4 text-center"> 
 		<strong>Maggie Lagos</strong><br/> 
 		Department of Computer Science<br/> 
 		George Mason University<br/> 
@@ -89,7 +89,7 @@
 	<h2 id="system-architecture" rel="annotation">III. System Architecture</h2> 
 </div> </div> <div class="row"> <div class="col-sm-12"> 
 	<p> Our network metrics tool measures latency, throughput, and packet loss using a client-server application. The client application can be installed on any Android device running at least API version 15. Meanwhile, the server-side software is hosted in the cloud and can be executed from a laptop computer. Figure 1 illustrates the high-level methodology of the client- server application. The size and number of packets to send may be adjusted from the server and then sent to the client. The client sends and receives first UDP, then TCP packets as specified. Afterwards it sends counters and timestamps back to the server in order to perform final calculations. </p>
-	<img src="assets/cs/fig1.png" width="30%" class="figure"/> 
+	<img src="assets/computerscience/fig1.png" width="30%" class="figure"/> 
 	<p class="caption"> Fig. 1. Client-Server architecture </p> 
 	</div> 
 </div> 
@@ -140,7 +140,7 @@
 	<div class="col-sm-12"> 
 		<p> Because the system clock on mobile devices may vary, it is necessary to synchronize times between the client and server. We use the same synchronization method used in MIST. It requires four timestamps for two nodes, client C and Server S: when C sends, S receives, S responds, and C receives response. The offset is calculated by: 
 		
-		<img src="assets/cs/eq1.png" alt="rac{Creceive-Ssend+Csend-Sreceive}{2}" class="equation"/> 
+		<img src="assets/computerscience/eq1.png" alt="rac{Creceive-Ssend+Csend-Sreceive}{2}" class="equation"/> 
 		
 		and used to adjust server-side times [9]. This allows us to calculate accurate latency values between the client and server. </p> 
 		
@@ -182,10 +182,10 @@
 <div class="row"> 
 	<div class="col-sm-12"> 
 		<p> For each of the 200 packet transmissions, timestamps were saved when sent and received on each side. Uplink and down- link latency measurements are a major part of our framework because the speed at which information traverses the network impacts the speed of application performance. </p>
-		<img src="assets/cs/fig2.png" width="30%" class="figure"/> 
+		<img src="assets/computerscience/fig2.png" width="30%" class="figure"/> 
 		<p class="caption"> Fig. 2. 3G and 4G downlink latency </p> 
 		<p> Figure 2 describes downlink latencies for measurements taken in the afternoon. Downlink latency in a 3G location varies from 53 ms to 508 ms with an average of 85 ms. Studies done by Tsetsgee and Lkhagvasurem show that delays below 10 ms do not affect perceived quality for VoIP and is still acceptable up to 250 ms. The average latency measured allows for a high quality VoIP conversation. However, the maximum delay exceeds the 250 ms threshold for acceptable conversation quality. The same study also specifies jitter guidelines for VoIP quality. The 455 ms jitter is over 75 ms, which would cause too much jumble in the conversation. On the other hand, jitter in a 4G network was only 15 ms and jitter below 40 ms does not affect conversation [2]. The same set of 4G measurements shows acceptable downlink latency for VoIP. The latency ranged from 46-61 ms and is below 100 ms, so it does not cause a detectable delay. </p>
-		<img src="assets/cs/fig3.png" width="30%" class="figure"/> 
+		<img src="assets/computerscience/fig3.png" width="30%" class="figure"/> 
 		<p class="caption"> Fig. 3. 3G and 4G uplink latency </p> 
 		<p> Figure 3 shows uplink latency measured in the morning. The range of latency values in a 3G area vary from 50 ms to 239 ms. The work of Kim et al. show that the delay requirements for conversation, streaming, and interactive applications are 100ms, 250ms, and 400ms, respectively [3]. The average uplink at 72 ms means the network quality is adequate for all previously listed applications. However, if the latency were to remain close to the maximum at 239 ms, conversation applications such as VoIP would not be usable. Uplink jitter in a 3G network was 189 ms. Like the morning measurements, jitter was above 75 ms making VoIP unusable. Similar to afternoon tests, only a 15 ms jitter was found in the 4G network. This also falls below 40 ms, making jitter undetectable. Meanwhile the uplink latency for a 4G network measured in the same time frame varies from 45 ms to 59 ms. Even the maximum delay in this location fulfills Kim’s listed delay requirements, meaning the network can support all types of applications [3]. </p>
 	 </div> 
@@ -201,7 +201,7 @@
 	<div class="col-sm-12"> 
 		<p> Throughput analysis is considered between the 3G and 4G areas. TCP throughput may sacrifice time for its reliable transmission protocol. We use the two datasets to compare how throughput is affected by connection level in Figure 4. </p>
 		<p> Network performance measurements demonstrate that different workloads operate at different throughput data rates. In Balachandran et al’s measurement study, a light workload type used less than 15 Kbps, a medium one used 15-80 Kbps, and heavy sessions ran at over 80 Kbps [1]. According to their results, our downlink throughput measurements of 277 Kbps and 250 Kbps in 4G and 3G networks would work well for any type of session load. However, an interactive application which may make more use of uplink data transfers would not operate as well. Uplink throughput in a 4G network was limited to 50 Kbps and 48 Kbps in a 3G location. This speed would only allow for light to medium workload processing. </p>
-		<img src="assets/cs/fig4.png" width="30%" class="figure"/> 
+		<img src="assets/computerscience/fig4.png" width="30%" class="figure"/> 
 		<p class="caption"> Fig. 4. Throughput </p> 
 	</div> 
 </div> 
